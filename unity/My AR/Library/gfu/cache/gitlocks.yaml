@@ -13,30 +13,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 7
-  lastUpdatedAtString: 2021-11-04T18:18:21.199+07:00
+  lastUpdatedAtString: 2021-11-04T21:32:59.505+07:00
   initializedAtString: 2021-11-04T11:19:06.478+07:00
-  gitLocks:
-  - id: 1068374
-    path: unity/My AR/Assets/Materials/image1.jpg
-    owner:
-      name: nhat108
-      email: 
-    lockedAtString: 2021-11-04T10:54:00Z
-  - id: 1068375
-    path: unity/My AR/Assets/Materials/image2.jpeg
-    owner:
-      name: nhat108
-      email: 
-    lockedAtString: 2021-11-04T10:54:01Z
-  - id: 1068376
-    path: unity/My AR/Assets/Materials/image3.jpg
-    owner:
-      name: nhat108
-      email: 
-    lockedAtString: 2021-11-04T10:54:02Z
-  - id: 1068377
-    path: unity/My AR/Assets/Materials/image4.jpeg
-    owner:
-      name: nhat108
-      email: 
-    lockedAtString: 2021-11-04T10:54:03Z
+  gitLocks: []

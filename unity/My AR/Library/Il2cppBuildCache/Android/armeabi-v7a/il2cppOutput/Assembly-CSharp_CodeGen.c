@@ -305,35 +305,49 @@ extern void ExampleSc_OnGUI_m1B2A488244FE012459A33D42A2DA18567C2AF139 (void);
 extern void ExampleSc__ctor_mA11C3718DB360171A3884F25D3FE4BC52793F9DC (void);
 // 0x00000099 System.Void MainCameraController::Start()
 extern void MainCameraController_Start_m3E3A5999B41AF1DE17EA40BEC577C4B6C264E56A (void);
-// 0x0000009A System.Void MainCameraController::Update()
+// 0x0000009A System.Collections.IEnumerator MainCameraController::DownloadImage(System.String)
+extern void MainCameraController_DownloadImage_m01385FFC7EA9AA26ADF7B5FA68720B6A6F7DECF0 (void);
+// 0x0000009B System.Void MainCameraController::Update()
 extern void MainCameraController_Update_m59043519103A10C7956BE9A7D9F0E804A6B9AFA5 (void);
-// 0x0000009B System.Void MainCameraController::OnTriggerEnter(UnityEngine.Collider)
+// 0x0000009C System.Void MainCameraController::OnTriggerEnter(UnityEngine.Collider)
 extern void MainCameraController_OnTriggerEnter_m137319FDEAACAAE0CF0C4BF29E51520D91C7CE02 (void);
-// 0x0000009C System.Void MainCameraController::updateRotationByMouse()
+// 0x0000009D System.Void MainCameraController::updateRotationByMouse()
 extern void MainCameraController_updateRotationByMouse_mFB289B014C7F0700D4016B1414386EBFFED7F3D7 (void);
-// 0x0000009D System.Void MainCameraController::UpdateCricle2DView()
+// 0x0000009E System.Void MainCameraController::UpdateCricle2DView()
 extern void MainCameraController_UpdateCricle2DView_m0DD41E64192A34DA3E0152C184519671BC03CC8A (void);
-// 0x0000009E System.Void MainCameraController::UpdateMoving()
+// 0x0000009F System.Void MainCameraController::UpdateMoving()
 extern void MainCameraController_UpdateMoving_mA9700A03A415926751D5BFD1EB3EE5B620242953 (void);
-// 0x0000009F System.Void MainCameraController::OnUpButtonClick()
+// 0x000000A0 System.Void MainCameraController::OnUpButtonClick()
 extern void MainCameraController_OnUpButtonClick_mBD997EDB2F5BC5E841E12BB641C7F21812965608 (void);
-// 0x000000A0 System.Void MainCameraController::OnDownButtonClick()
+// 0x000000A1 System.Void MainCameraController::OnDownButtonClick()
 extern void MainCameraController_OnDownButtonClick_mF1F132A29EA72C3ABF8EF347F009AF4F69E44AD6 (void);
-// 0x000000A1 System.Void MainCameraController::OnRightButtonClick()
+// 0x000000A2 System.Void MainCameraController::OnRightButtonClick()
 extern void MainCameraController_OnRightButtonClick_m23CB397C67ACB232B6DD8525C086E114BFD5E6D3 (void);
-// 0x000000A2 System.Void MainCameraController::OnLeftButtonClick()
+// 0x000000A3 System.Void MainCameraController::OnLeftButtonClick()
 extern void MainCameraController_OnLeftButtonClick_m0CED418A1B38FDDD34AE9616DAD58FFAA3B7CE56 (void);
-// 0x000000A3 System.Void MainCameraController::.ctor()
+// 0x000000A4 System.Void MainCameraController::.ctor()
 extern void MainCameraController__ctor_mB762577697D8877B705452ADBBB8D0D299772158 (void);
-// 0x000000A4 System.Void PortalManager::Start()
+// 0x000000A5 System.Void MainCameraController/<DownloadImage>d__11::.ctor(System.Int32)
+extern void U3CDownloadImageU3Ed__11__ctor_mF1921DA75A44FFD6C5C43FCEE65733E2ACFC040F (void);
+// 0x000000A6 System.Void MainCameraController/<DownloadImage>d__11::System.IDisposable.Dispose()
+extern void U3CDownloadImageU3Ed__11_System_IDisposable_Dispose_m43A7E105D05ADBD6547A0FAEAF73C531295C36BA (void);
+// 0x000000A7 System.Boolean MainCameraController/<DownloadImage>d__11::MoveNext()
+extern void U3CDownloadImageU3Ed__11_MoveNext_mEFB619CFC4005EE39C88C0755F504DA9DBB10CB3 (void);
+// 0x000000A8 System.Object MainCameraController/<DownloadImage>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CDownloadImageU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0D52E8B112C93C9B4D4B936A829FC98DDD9462EA (void);
+// 0x000000A9 System.Void MainCameraController/<DownloadImage>d__11::System.Collections.IEnumerator.Reset()
+extern void U3CDownloadImageU3Ed__11_System_Collections_IEnumerator_Reset_mBFB30C1C5DBF89207862EA0B194EF002C41245E9 (void);
+// 0x000000AA System.Object MainCameraController/<DownloadImage>d__11::System.Collections.IEnumerator.get_Current()
+extern void U3CDownloadImageU3Ed__11_System_Collections_IEnumerator_get_Current_m54189E71F4F68507D644590FA5587C45F897E7F6 (void);
+// 0x000000AB System.Void PortalManager::Start()
 extern void PortalManager_Start_m65B8A4A846583D31B674B4F2B0878AE6DB5221E1 (void);
-// 0x000000A5 System.Void PortalManager::OnTriggerStay(UnityEngine.Collider)
+// 0x000000AC System.Void PortalManager::OnTriggerStay(UnityEngine.Collider)
 extern void PortalManager_OnTriggerStay_mB9A90D862A15E918036E45CF22EE43480A5B5345 (void);
-// 0x000000A6 System.Void PortalManager::OnTriggerExit(UnityEngine.Collider)
+// 0x000000AD System.Void PortalManager::OnTriggerExit(UnityEngine.Collider)
 extern void PortalManager_OnTriggerExit_mA43638E9CB276DA8DAAA54A71F8A3CC2CBA0D0E9 (void);
-// 0x000000A7 System.Void PortalManager::.ctor()
+// 0x000000AE System.Void PortalManager::.ctor()
 extern void PortalManager__ctor_m064C56AEAA94F2B4B9D412DEBFAA6E8343E335B9 (void);
-static Il2CppMethodPointer s_methodPointers[167] = 
+static Il2CppMethodPointer s_methodPointers[174] = 
 {
 	NULL,
 	NULL,
@@ -488,6 +502,7 @@ static Il2CppMethodPointer s_methodPointers[167] =
 	ExampleSc_OnGUI_m1B2A488244FE012459A33D42A2DA18567C2AF139,
 	ExampleSc__ctor_mA11C3718DB360171A3884F25D3FE4BC52793F9DC,
 	MainCameraController_Start_m3E3A5999B41AF1DE17EA40BEC577C4B6C264E56A,
+	MainCameraController_DownloadImage_m01385FFC7EA9AA26ADF7B5FA68720B6A6F7DECF0,
 	MainCameraController_Update_m59043519103A10C7956BE9A7D9F0E804A6B9AFA5,
 	MainCameraController_OnTriggerEnter_m137319FDEAACAAE0CF0C4BF29E51520D91C7CE02,
 	MainCameraController_updateRotationByMouse_mFB289B014C7F0700D4016B1414386EBFFED7F3D7,
@@ -498,12 +513,18 @@ static Il2CppMethodPointer s_methodPointers[167] =
 	MainCameraController_OnRightButtonClick_m23CB397C67ACB232B6DD8525C086E114BFD5E6D3,
 	MainCameraController_OnLeftButtonClick_m0CED418A1B38FDDD34AE9616DAD58FFAA3B7CE56,
 	MainCameraController__ctor_mB762577697D8877B705452ADBBB8D0D299772158,
+	U3CDownloadImageU3Ed__11__ctor_mF1921DA75A44FFD6C5C43FCEE65733E2ACFC040F,
+	U3CDownloadImageU3Ed__11_System_IDisposable_Dispose_m43A7E105D05ADBD6547A0FAEAF73C531295C36BA,
+	U3CDownloadImageU3Ed__11_MoveNext_mEFB619CFC4005EE39C88C0755F504DA9DBB10CB3,
+	U3CDownloadImageU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0D52E8B112C93C9B4D4B936A829FC98DDD9462EA,
+	U3CDownloadImageU3Ed__11_System_Collections_IEnumerator_Reset_mBFB30C1C5DBF89207862EA0B194EF002C41245E9,
+	U3CDownloadImageU3Ed__11_System_Collections_IEnumerator_get_Current_m54189E71F4F68507D644590FA5587C45F897E7F6,
 	PortalManager_Start_m65B8A4A846583D31B674B4F2B0878AE6DB5221E1,
 	PortalManager_OnTriggerStay_mB9A90D862A15E918036E45CF22EE43480A5B5345,
 	PortalManager_OnTriggerExit_mA43638E9CB276DA8DAAA54A71F8A3CC2CBA0D0E9,
 	PortalManager__ctor_m064C56AEAA94F2B4B9D412DEBFAA6E8343E335B9,
 };
-static const int32_t s_InvokerIndices[167] = 
+static const int32_t s_InvokerIndices[174] = 
 {
 	-1,
 	-1,
@@ -513,22 +534,22 @@ static const int32_t s_InvokerIndices[167] =
 	-1,
 	-1,
 	-1,
-	4126,
-	4430,
-	4485,
-	4485,
-	4485,
+	4127,
+	4431,
+	4486,
+	4486,
+	4486,
 	2835,
 	-1,
 	-1,
 	-1,
 	-1,
-	4349,
+	4350,
 	-1,
 	519,
 	2341,
 	2835,
-	4464,
+	4465,
 	2341,
 	2341,
 	2341,
@@ -543,7 +564,7 @@ static const int32_t s_InvokerIndices[167] =
 	2341,
 	2341,
 	2835,
-	4485,
+	4486,
 	1334,
 	2341,
 	677,
@@ -576,13 +597,13 @@ static const int32_t s_InvokerIndices[167] =
 	2835,
 	2835,
 	2835,
-	4430,
-	4116,
-	4116,
-	4116,
-	4116,
-	3950,
-	4349,
+	4431,
+	4117,
+	4117,
+	4117,
+	4117,
+	3951,
+	4350,
 	2835,
 	2835,
 	2835,
@@ -594,10 +615,10 @@ static const int32_t s_InvokerIndices[167] =
 	3731,
 	3414,
 	2835,
-	4469,
+	4470,
 	1639,
 	2835,
-	4485,
+	4486,
 	2835,
 	2835,
 	2835,
@@ -626,9 +647,9 @@ static const int32_t s_InvokerIndices[167] =
 	2341,
 	2341,
 	288,
-	4064,
+	4065,
 	491,
-	4398,
+	4399,
 	2835,
 	2341,
 	2835,
@@ -658,6 +679,7 @@ static const int32_t s_InvokerIndices[167] =
 	2835,
 	2835,
 	2835,
+	1752,
 	2835,
 	2341,
 	2835,
@@ -668,6 +690,12 @@ static const int32_t s_InvokerIndices[167] =
 	2835,
 	2835,
 	2835,
+	2326,
+	2835,
+	2819,
+	2797,
+	2835,
+	2797,
 	2835,
 	2341,
 	2341,
@@ -718,7 +746,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	167,
+	174,
 	s_methodPointers,
 	0,
 	NULL,

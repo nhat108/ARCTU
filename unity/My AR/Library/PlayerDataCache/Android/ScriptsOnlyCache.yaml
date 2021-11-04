@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - PortalManager
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
+    - GitHub.Unity.BranchesCache
     - GitHub.Unity.EnvironmentCache
     - GitHub.Unity.GitAheadBehindCache
     - GitHub.Unity.GitLocksCache
@@ -25,7 +26,6 @@ ScriptsOnlyBuild:
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
-    - UnityEngine.XR.ARFoundation.AREnvironmentProbe
     - UnityEngine.XR.ARFoundation.ARInputManager
     - UnityEngine.XR.ARFoundation.ARPlane
     - UnityEngine.XR.ARFoundation.ARPlaneManager
@@ -77,8 +77,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -101,8 +99,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2860}
     - Class: 114
       Script: {instanceID: 2958}
-    - Class: 114
-      Script: {instanceID: 2988}
     - Class: 114
       Script: {instanceID: 3114}
     - Class: 114
@@ -140,8 +136,6 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 215
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -722,7 +716,7 @@ ScriptsOnlyBuild:
     className: ARCoreLoader
   - hash:
       serializedVersion: 2
-      Hash: 0edfc236f8702f85b42c06ae2cd2a978
+      Hash: 91cb21d9bf85f3db58503507952f7a9f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PortalManager
@@ -788,7 +782,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 51c3f7f53601c961e466d7cad49e0ba3
+      Hash: 5edd6434708f5c280165092f26e4bc8c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainCameraController
