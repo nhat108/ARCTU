@@ -1,3 +1,5 @@
+import 'package:ar_ctu/blocs/home/home_bloc.dart';
+import 'package:ar_ctu/models/streetview.dart';
 import 'package:ar_ctu/screens/room_details/room_details_page.dart';
 import 'package:ar_ctu/utils/app_assets.dart';
 import 'package:ar_ctu/utils/app_colors.dart';
@@ -5,6 +7,7 @@ import 'package:ar_ctu/utils/app_routes.dart';
 import 'package:ar_ctu/utils/app_styles.dart';
 import 'package:ar_ctu/widgets/cache_image_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class ListRecommendedPage extends StatefulWidget {
@@ -65,108 +68,118 @@ class _ListRecommendedPageState extends State<ListRecommendedPage> {
               ),
             ),
             Expanded(
-              child: ListView.separated(
-                  padding: EdgeInsets.symmetric(horizontal: 25),
-                  itemBuilder: (_, index) {
-                    return GestureDetector(
-                      onTap: () {
-                        AppRoutes.push(context, RoomDetailsPage());
-                      },
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Stack(
-                              children: [
-                                CacheImageNetworkWidget(
-                                  height: 120,
-                                  borderRadius: 10,
-                                  width: double.infinity,
-                                  imageUrl:
-                                      'https://s.yimg.jp/images/tbv/img/news/202011/CTU_JobFair_2020_01.jpg',
+              child: StreamBuilder<List<StreetView>>(
+                  stream:
+                      BlocProvider.of<HomeBloc>(context).getListStreetViews(),
+                  builder: (context, snapshot) {
+                    if (snapshot.hasData) {
+                      var streetViews = snapshot.data;
+                      return ListView.separated(
+                          padding: EdgeInsets.symmetric(horizontal: 25),
+                          itemBuilder: (_, index) {
+                            return GestureDetector(
+                              onTap: () {
+                                AppRoutes.push(context, RoomDetailsPage());
+                              },
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(10),
                                 ),
-                                Positioned.fill(
-                                  top: 10,
-                                  right: 10,
-                                  child: Align(
-                                    alignment: Alignment.topRight,
-                                    child: Container(
-                                      height: 30,
-                                      width: 30,
-                                      decoration: BoxDecoration(
-                                        color: AppColors.LightSkyBlue,
-                                        shape: BoxShape.circle,
-                                      ),
-                                      child: Icon(
-                                        Icons.phone_android,
-                                        size: 15,
-                                        color: AppColors.CherryPie,
-                                      ),
-                                    ),
-                                  ),
-                                )
-                              ],
-                            ),
-                            const SizedBox(
-                              height: 10,
-                            ),
-                            Padding(
-                              padding:
-                                  const EdgeInsets.symmetric(horizontal: 10),
-                              child: Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Expanded(
-                                    child: Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Stack(
                                       children: [
-                                        Text(
-                                          "Khoa CNTT",
-                                          style: AppStyles.textSize16(),
+                                        CacheImageNetworkWidget(
+                                          height: 120,
+                                          borderRadius: 10,
+                                          width: double.infinity,
+                                          imageUrl:
+                                              '${streetViews![index].thumbnail}',
                                         ),
-                                        Text(
-                                          "Rộng: 500m2",
-                                          style: AppStyles.textSize12(
-                                            color: AppColors.CarnationPink,
+                                        Positioned.fill(
+                                          top: 10,
+                                          right: 10,
+                                          child: Align(
+                                            alignment: Alignment.topRight,
+                                            child: Container(
+                                              height: 30,
+                                              width: 30,
+                                              decoration: BoxDecoration(
+                                                color: AppColors.LightSkyBlue,
+                                                shape: BoxShape.circle,
+                                              ),
+                                              child: Icon(
+                                                Icons.phone_android,
+                                                size: 15,
+                                                color: AppColors.CherryPie,
+                                              ),
+                                            ),
                                           ),
                                         )
                                       ],
                                     ),
-                                  ),
-                                  Container(
-                                    decoration: BoxDecoration(
-                                      color: AppColors.CarnationPink,
-                                      shape: BoxShape.circle,
+                                    const SizedBox(
+                                      height: 10,
                                     ),
-                                    width: 35,
-                                    height: 35,
-                                    child: Icon(
-                                      Icons.favorite,
-                                      color: Colors.white,
-                                      size: 14,
+                                    Padding(
+                                      padding: const EdgeInsets.symmetric(
+                                          horizontal: 10),
+                                      child: Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Expanded(
+                                            child: Column(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
+                                              children: [
+                                                Text(
+                                                  "${streetViews[index].name}",
+                                                  style: AppStyles.textSize16(),
+                                                ),
+                                                Text(
+                                                  "Rộng: 500m2",
+                                                  style: AppStyles.textSize12(
+                                                    color:
+                                                        AppColors.CarnationPink,
+                                                  ),
+                                                )
+                                              ],
+                                            ),
+                                          ),
+                                          Container(
+                                            decoration: BoxDecoration(
+                                              color: AppColors.CarnationPink,
+                                              shape: BoxShape.circle,
+                                            ),
+                                            width: 35,
+                                            height: 35,
+                                            child: Icon(
+                                              Icons.favorite,
+                                              color: Colors.white,
+                                              size: 14,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
                                     ),
-                                  ),
-                                ],
+                                    const SizedBox(
+                                      height: 10,
+                                    ),
+                                  ],
+                                ),
                               ),
-                            ),
-                            const SizedBox(
-                              height: 10,
-                            ),
-                          ],
-                        ),
-                      ),
-                    );
-                  },
-                  separatorBuilder: (_, __) => const SizedBox(
-                        height: 20,
-                      ),
-                  itemCount: 20),
+                            );
+                          },
+                          separatorBuilder: (_, __) => const SizedBox(
+                                height: 20,
+                              ),
+                          itemCount: snapshot.data!.length);
+                    }
+                    return Container();
+                  }),
             ),
           ],
         ),

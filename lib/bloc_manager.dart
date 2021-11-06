@@ -1,4 +1,5 @@
 import 'package:ar_ctu/blocs/auth/auth_bloc.dart';
+import 'package:ar_ctu/blocs/home/home_bloc.dart';
 import 'package:ar_ctu/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -28,6 +29,7 @@ class BlocManager extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(providers: [
       BlocProvider(create: (_) => AuthBloc()),
+      BlocProvider(create: (_) => HomeBloc()),
     ], child: MyApp());
   }
 }
