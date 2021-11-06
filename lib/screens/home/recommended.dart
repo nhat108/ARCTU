@@ -1,6 +1,5 @@
 import 'package:ar_ctu/blocs/home/home_bloc.dart';
 import 'package:ar_ctu/models/streetview.dart';
-import 'package:ar_ctu/repositories/firestore_repository.dart';
 import 'package:ar_ctu/screens/list_recommended/list_recommended_page.dart';
 import 'package:ar_ctu/screens/room_details/room_details_page.dart';
 import 'package:ar_ctu/utils/app_colors.dart';
@@ -56,7 +55,11 @@ class Recommended extends StatelessWidget {
                       children: List.generate(streetViews!.length, (index) {
                         return GestureDetector(
                           onTap: () {
-                            AppRoutes.push(context, RoomDetailsPage());
+                            AppRoutes.push(
+                                context,
+                                RoomDetailsPage(
+                                  streetView: streetViews[index],
+                                ));
                           },
                           child: Padding(
                             padding: const EdgeInsets.only(right: 20),

@@ -1,9 +1,11 @@
+import 'package:ar_ctu/models/streetview.dart';
 import 'package:ar_ctu/utils/app_colors.dart';
 import 'package:ar_ctu/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 
-class RoomDetails extends StatelessWidget {
-  const RoomDetails({Key? key}) : super(key: key);
+class RoomDetail extends StatelessWidget {
+  final RoomDetails room;
+  const RoomDetail({Key? key, required this.room}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +33,7 @@ class RoomDetails extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Sunny Apartment",
+                    "${room.name}",
                     style: AppStyles.textSize16(),
                   ),
                   const SizedBox(

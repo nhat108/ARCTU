@@ -5,13 +5,18 @@ import 'package:ar_ctu/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 
 class ViewArBar extends StatelessWidget {
-  const ViewArBar({Key? key}) : super(key: key);
+  final List<String> image360s;
+  const ViewArBar({Key? key, required this.image360s}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        AppRoutes.push(context, UnityView());
+        AppRoutes.push(
+            context,
+            UnityView(
+              image360s: image360s,
+            ));
       },
       child: Container(
         margin: EdgeInsets.symmetric(horizontal: 25, vertical: 20),

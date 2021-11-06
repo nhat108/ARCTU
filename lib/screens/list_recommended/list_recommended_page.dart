@@ -79,7 +79,11 @@ class _ListRecommendedPageState extends State<ListRecommendedPage> {
                           itemBuilder: (_, index) {
                             return GestureDetector(
                               onTap: () {
-                                AppRoutes.push(context, RoomDetailsPage());
+                                AppRoutes.push(
+                                    context,
+                                    RoomDetailsPage(
+                                      streetView: streetViews![index],
+                                    ));
                               },
                               child: Container(
                                 decoration: BoxDecoration(

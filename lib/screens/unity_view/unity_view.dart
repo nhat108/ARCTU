@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_unity_widget/flutter_unity_widget.dart';
 
 class UnityView extends StatefulWidget {
+  final List<String> image360s;
+
+  const UnityView({Key? key, required this.image360s}) : super(key: key);
   @override
   _UnityViewState createState() => _UnityViewState();
 }

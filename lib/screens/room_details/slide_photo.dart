@@ -6,7 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class SlidePhoto extends StatefulWidget {
-  const SlidePhoto({Key? key}) : super(key: key);
+  final List<String> photos;
+  const SlidePhoto({Key? key, required this.photos}) : super(key: key);
 
   @override
   _SlidePhotoState createState() => _SlidePhotoState();
@@ -24,13 +25,11 @@ class _SlidePhotoState extends State<SlidePhoto> {
             child: PageView(
               controller: _pageController,
               scrollDirection: Axis.horizontal,
-              children: List.generate(5, (index) {
+              children: List.generate(widget.photos.length, (index) {
                 return Container(
                   margin: EdgeInsets.symmetric(horizontal: 25),
                   child: CacheImageNetworkWidget(
-                      borderRadius: 30,
-                      imageUrl:
-                          'https://baocantho.com.vn/image/fckeditor/upload/2020/20200305/images/4-2.gif'),
+                      borderRadius: 30, imageUrl: '${widget.photos[index]}'),
                 );
               }),
             ),
