@@ -18,6 +18,7 @@ public class ARCusor : MonoBehaviour
         objectToPlace.SetActive(false);
         //cursorChildObject.SetActive(useCursor);
         //room.SetActive(false);
+        
     }
 
     // Update is called once per frame

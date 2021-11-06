@@ -48,6 +48,7 @@
 		<type fullname="ExampleSc" preserve="nothing"/>
 		<type fullname="MainCameraController" preserve="nothing"/>
 		<type fullname="PortalManager" preserve="nothing"/>
+		<type fullname="Test" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.ARCore">
 		<type fullname="UnityEngine.XR.ARCore.ARCoreLoader" preserve="nothing"/>

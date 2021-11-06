@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Rendering;
-using UnityEngine.Networking;
+
 
 public class MainCameraController : MonoBehaviour
 {
@@ -16,50 +16,33 @@ public class MainCameraController : MonoBehaviour
 
     public GameObject circle2DView;
     public GameObject Room;
-    GameObject[] spheres;
-    public GameObject Plane;
-    public Material EmptyMaterial;
+    public GameObject Room2;
+    List<GameObject> spheres = new List<GameObject>();
+    
     
     // Start is called before the first frame update
     void Start()
     {
-        Texture2D texture = Resources.Load("Image") as Texture2D;
-        EmptyMaterial.mainTexture = texture;
-        Plane.GetComponent<Renderer>().material = EmptyMaterial;
-        spheres = GameObject.FindGameObjectsWithTag("Sphere");
-        //for (int i = 0; i < spheres.Length; i++)
+
+        for (int i = 0; i < Room2.transform.childCount; i++)
+        {
+            spheres.Add(Room2.transform.GetChild(i).transform.GetChild(0).gameObject);
+            
+        }
+
+        //TODO
+        //spheres = GameObject.FindGameObjectsWithTag("Sphere");
+        //for (int i = 0; i < spheres.Length; ++i)
         //{
-        //    spheres[i].SetActive(false);
-        //}
-        //spheres[0].transform.position = new Vector3(0, 0, 0);
-        //spheres[0].SetActive(true);
-        
-       
-
-        for (int i = 0; i < spheres.Length; ++i)
-        {
            
-            spheres[i].GetComponent<Renderer>().sharedMaterial.SetInt("_StencilComp", (int)CompareFunction.NotEqual);
-        }
-        spheres[0].GetComponent<Renderer>().sharedMaterial.SetInt("_StencilComp", (int)CompareFunction.Equal);
-        Room.SetActive(false);
-        StartCoroutine(DownloadImage("https://www.ctu.edu.vn/images/upload/news/2021/pckdctu1.jpg"));
+        //    spheres[i].GetComponent<Renderer>().sharedMaterial.SetInt("_StencilComp", (int)CompareFunction.NotEqual);
+        //}
+        //spheres[0].GetComponent<Renderer>().sharedMaterial.SetInt("_StencilComp", (int)CompareFunction.Equal);
+        //Room.SetActive(false);
+     
 
     }
 
-    IEnumerator DownloadImage(string MediaUrl)
-    {
-        UnityEngine.Networking.UnityWebRequest request = UnityWebRequestTexture.GetTexture(MediaUrl);
-        yield return request.SendWebRequest();
-        if (request.result==UnityWebRequest.Result.ConnectionError)
-            Debug.Log(request.error);
-        else
-        {
-            var texture2D = ((DownloadHandlerTexture)request.downloadHandler).texture;
-            EmptyMaterial.mainTexture = texture2D;
-            Plane.GetComponent<Renderer>().material = EmptyMaterial;
-        }
-    }
 
     // Update is called once per frame
     void Update()
@@ -75,20 +58,10 @@ public class MainCameraController : MonoBehaviour
     [System.Obsolete]
     private void OnTriggerEnter(Collider other)
     {
-        //if (other.gameObject.tag == "PortalPlane")
-        //{
-        //    //var world = GameObject.FindGameObjectWithTag("World");
-        //    //world.transform.position = transform.position;
-        //    //world.transform.rotation = transform.rotation;
-        //    //return;
-        //}
-
-     
-        Debug.Log($"OnTriggerEnter {other.name}");
-        //var sphere = GameObject.Find($"World/Boxs/{other.gameObject.name}/Sphere");
-        if(other.tag=="Quad"&& other.gameObject.transform.childCount>0)
+        if (other.tag == "Quad")
         {
-            for (int i = 0; i < spheres.Length; i++)
+
+            for (int i = 0; i < spheres.Count; i++)
             {
 
                 if (spheres[i].active == true)
@@ -99,16 +72,34 @@ public class MainCameraController : MonoBehaviour
 
 
             }
-
             var sphere = other.gameObject.transform.GetChild(0).gameObject;
-          
-            sphere.transform.position = other.transform.position;
-            //sphere.transform.rotation = other.transform.rotation;
-            //sphere.transform.position = transform.position;
             sphere.SetActive(true);
-            sphere.GetComponent<Renderer>().sharedMaterial.SetInt("_StencilComp", (int)CompareFunction.NotEqual);
         }
-       
+
+
+        /****************/
+        //if(other.tag=="Quad"&& other.gameObject.transform.childCount>0)
+        //{
+        //    for (int i = 0; i < spheres.Length; i++)
+        //    {
+
+        //        if (spheres[i].active == true)
+        //        {
+        //            spheres[i].SetActive(false);
+
+        //        }
+
+
+        //    }
+
+        //    var sphere = other.gameObject.transform.GetChild(0).gameObject;
+
+        //    sphere.transform.position = other.transform.position;
+
+        //    sphere.SetActive(true);
+        //    sphere.GetComponent<Renderer>().sharedMaterial.SetInt("_StencilComp", (int)CompareFunction.NotEqual);
+        //}
+
 
 
     }

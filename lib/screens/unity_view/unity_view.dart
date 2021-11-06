@@ -15,9 +15,18 @@ class _UnityViewState extends State<UnityView> {
   }
 
   @override
+  void dispose() {
+    _unityWidgetController!.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       key: _scaffoldKey,
+      floatingActionButton: FloatingActionButton(onPressed: () {
+        _unityWidgetController!.postMessage('Sphere', "SetTexture", '');
+      }),
       body: SafeArea(
         bottom: false,
         child: Container(

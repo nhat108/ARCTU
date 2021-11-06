@@ -13,45 +13,345 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-11-04T21:34:37.323+07:00
+  lastUpdatedAtString: 2021-11-06T14:58:10.466+07:00
   initializedAtString: 2021-11-04T11:19:06.438+07:00
   entries:
-  - path: android/unityLibrary/.gitignore
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/.gitignore
-    projectPath: ../../android/unityLibrary/.gitignore
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/0650DC338B088A185C40EDF6ACE4D526.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/0650DC338B088A185C40EDF6ACE4D526.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/0650DC338B088A185C40EDF6ACE4D526.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/06B31E652F34257772F1DFE15CB71AD3.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/06B31E652F34257772F1DFE15CB71AD3.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/06B31E652F34257772F1DFE15CB71AD3.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/4087C43844AB6B9669FAF24EB1BC26C0.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/4087C43844AB6B9669FAF24EB1BC26C0.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/4087C43844AB6B9669FAF24EB1BC26C0.o
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/47A1097DFA645D7ADA026E472FF131CA.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/47A1097DFA645D7ADA026E472FF131CA.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/47A1097DFA645D7ADA026E472FF131CA.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/4DDE1E550B518B74020965D255647A29.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/4DDE1E550B518B74020965D255647A29.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/4DDE1E550B518B74020965D255647A29.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/65A48B263EBCB52C86F554B8C03CFFFE.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/65A48B263EBCB52C86F554B8C03CFFFE.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/65A48B263EBCB52C86F554B8C03CFFFE.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/78D1453A47C9033CA83CDC80F8FB762D.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/78D1453A47C9033CA83CDC80F8FB762D.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/78D1453A47C9033CA83CDC80F8FB762D.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/826670F948C3D8CD2D94F9CDF32F2301.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/826670F948C3D8CD2D94F9CDF32F2301.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/826670F948C3D8CD2D94F9CDF32F2301.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/83FA8985573B3908F4E9B4FB8A3566C3.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/83FA8985573B3908F4E9B4FB8A3566C3.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/83FA8985573B3908F4E9B4FB8A3566C3.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/928AA5577871E556B0F3E9756A69F1A7.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/928AA5577871E556B0F3E9756A69F1A7.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/928AA5577871E556B0F3E9756A69F1A7.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/9EF52D80CD26D4BCE1EA89B37C5A532D.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/9EF52D80CD26D4BCE1EA89B37C5A532D.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/9EF52D80CD26D4BCE1EA89B37C5A532D.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/A47750645C229D2465459DA514FFFEF6.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/A47750645C229D2465459DA514FFFEF6.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/A47750645C229D2465459DA514FFFEF6.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/AF0403C602D32DDEA3A7312C365B5A1F.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/AF0403C602D32DDEA3A7312C365B5A1F.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/AF0403C602D32DDEA3A7312C365B5A1F.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/C43181201EF208F743D5C89BA011F4D2.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/C43181201EF208F743D5C89BA011F4D2.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/C43181201EF208F743D5C89BA011F4D2.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/D11A31A24E509A324B01889A0C8D50FF.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/D11A31A24E509A324B01889A0C8D50FF.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/D11A31A24E509A324B01889A0C8D50FF.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/D183DCD8D35998B4B415C7C5C23AA0BD.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/D183DCD8D35998B4B415C7C5C23AA0BD.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/D183DCD8D35998B4B415C7C5C23AA0BD.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/D895436F027CDCD847DEF2AE4016DD67.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/D895436F027CDCD847DEF2AE4016DD67.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/D895436F027CDCD847DEF2AE4016DD67.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/E959E7642EB22FE0DCC10F0B018DA315.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/E959E7642EB22FE0DCC10F0B018DA315.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/E959E7642EB22FE0DCC10F0B018DA315.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/F0DAC50B42200813A4E3F7DA56944F3C.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/F0DAC50B42200813A4E3F7DA56944F3C.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/F0DAC50B42200813A4E3F7DA56944F3C.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/F7BF58480F4DADE9CE03CA5AD6F96BD6.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/F7BF58480F4DADE9CE03CA5AD6F96BD6.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/F7BF58480F4DADE9CE03CA5AD6F96BD6.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/libil2cpp/288726B07773CFCDA21CDD6DE431F275.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/libil2cpp/288726B07773CFCDA21CDD6DE431F275.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/libil2cpp/288726B07773CFCDA21CDD6DE431F275.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_5282BF1CD65D0262C78E344CBB52B9D4/libil2cpp.dbg.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_5282BF1CD65D0262C78E344CBB52B9D4/libil2cpp.dbg.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_5282BF1CD65D0262C78E344CBB52B9D4/libil2cpp.dbg.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_5282BF1CD65D0262C78E344CBB52B9D4/libil2cpp.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_5282BF1CD65D0262C78E344CBB52B9D4/libil2cpp.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_5282BF1CD65D0262C78E344CBB52B9D4/libil2cpp.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_5282BF1CD65D0262C78E344CBB52B9D4/libil2cpp.sym.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_5282BF1CD65D0262C78E344CBB52B9D4/libil2cpp.sym.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_5282BF1CD65D0262C78E344CBB52B9D4/libil2cpp.sym.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_7C2DD17E146546B9A8C5142B39E5E163/libil2cpp.dbg.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_7C2DD17E146546B9A8C5142B39E5E163/libil2cpp.dbg.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_7C2DD17E146546B9A8C5142B39E5E163/libil2cpp.dbg.so
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_7C2DD17E146546B9A8C5142B39E5E163/libil2cpp.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_7C2DD17E146546B9A8C5142B39E5E163/libil2cpp.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_7C2DD17E146546B9A8C5142B39E5E163/libil2cpp.so
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_7C2DD17E146546B9A8C5142B39E5E163/libil2cpp.sym.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_7C2DD17E146546B9A8C5142B39E5E163/libil2cpp.sym.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_arm64-v8a_Release/il2cpp_cache/linkresult_7C2DD17E146546B9A8C5142B39E5E163/libil2cpp.sym.so
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/6B4DCE60E5A2CF7CCC526B776B851603.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/6B4DCE60E5A2CF7CCC526B776B851603.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/6B4DCE60E5A2CF7CCC526B776B851603.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/6F165ADF48E0959050B8174EFB9B7081.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/6F165ADF48E0959050B8174EFB9B7081.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/6F165ADF48E0959050B8174EFB9B7081.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/737D1BE1DFB6B5D995F217C32C356C7A.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/737D1BE1DFB6B5D995F217C32C356C7A.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/737D1BE1DFB6B5D995F217C32C356C7A.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/7F6B9A9ACBF44B87AC55DB8215BFC05E.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/7F6B9A9ACBF44B87AC55DB8215BFC05E.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/7F6B9A9ACBF44B87AC55DB8215BFC05E.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/8EDD8721D07E37E842EC6ECC272FF738.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/8EDD8721D07E37E842EC6ECC272FF738.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/8EDD8721D07E37E842EC6ECC272FF738.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/9A667821E6D94A47DFC513DFA7DB41F3.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/9A667821E6D94A47DFC513DFA7DB41F3.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/9A667821E6D94A47DFC513DFA7DB41F3.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/9C75EC28A50AF05074F1C9F3FCE093EC.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/9C75EC28A50AF05074F1C9F3FCE093EC.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/9C75EC28A50AF05074F1C9F3FCE093EC.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/A558914F0ADBF2698104D41539243F12.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/A558914F0ADBF2698104D41539243F12.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/A558914F0ADBF2698104D41539243F12.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/A8EA705226B53336C2404F612161F539.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/A8EA705226B53336C2404F612161F539.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/A8EA705226B53336C2404F612161F539.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/AF00FAA8A0BC1123AB9BA5340BC42409.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/AF00FAA8A0BC1123AB9BA5340BC42409.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/AF00FAA8A0BC1123AB9BA5340BC42409.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/B6716345AF71403604196F6EC260DF38.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/B6716345AF71403604196F6EC260DF38.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/B6716345AF71403604196F6EC260DF38.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/BAC2C55657CD9DE90B86E7BA9D8D86F9.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/BAC2C55657CD9DE90B86E7BA9D8D86F9.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/BAC2C55657CD9DE90B86E7BA9D8D86F9.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/C627B2386B87FD01270386591FB09146.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/C627B2386B87FD01270386591FB09146.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/C627B2386B87FD01270386591FB09146.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/DBB12838CF6D6DA6182D02414C9E4395.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/DBB12838CF6D6DA6182D02414C9E4395.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/DBB12838CF6D6DA6182D02414C9E4395.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/DD2430817F7E40E5AA8CF2C918B34F5A.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/DD2430817F7E40E5AA8CF2C918B34F5A.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/DD2430817F7E40E5AA8CF2C918B34F5A.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/E94AA9E91DB4838DE5B0C334D4C7A6A1.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/E94AA9E91DB4838DE5B0C334D4C7A6A1.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/E94AA9E91DB4838DE5B0C334D4C7A6A1.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/EF143909546528A2EB729B58E106D47B.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/EF143909546528A2EB729B58E106D47B.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/EF143909546528A2EB729B58E106D47B.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/F34DCE4FFBD9CEDB02146F78B77C041C.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/F34DCE4FFBD9CEDB02146F78B77C041C.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/F34DCE4FFBD9CEDB02146F78B77C041C.o
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/FB067A8D610F0FD2D8EDEDA7F37E93A4.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/FB067A8D610F0FD2D8EDEDA7F37E93A4.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/FB067A8D610F0FD2D8EDEDA7F37E93A4.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/FC031F1FCDF8A0873CD95127F50B1451.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/FC031F1FCDF8A0873CD95127F50B1451.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/FC031F1FCDF8A0873CD95127F50B1451.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/libil2cpp/3DE6EE30FD3A0D798F006A0CEC2EA3C8.o
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/libil2cpp/3DE6EE30FD3A0D798F006A0CEC2EA3C8.o
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/libil2cpp/3DE6EE30FD3A0D798F006A0CEC2EA3C8.o
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_93D63F4590D9EA246E40924709005534/libil2cpp.dbg.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_93D63F4590D9EA246E40924709005534/libil2cpp.dbg.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_93D63F4590D9EA246E40924709005534/libil2cpp.dbg.so
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_93D63F4590D9EA246E40924709005534/libil2cpp.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_93D63F4590D9EA246E40924709005534/libil2cpp.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_93D63F4590D9EA246E40924709005534/libil2cpp.so
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_93D63F4590D9EA246E40924709005534/libil2cpp.sym.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_93D63F4590D9EA246E40924709005534/libil2cpp.sym.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_93D63F4590D9EA246E40924709005534/libil2cpp.sym.so
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_BAEDC4B9155B21B9F41AA8E09AB08880/libil2cpp.dbg.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_BAEDC4B9155B21B9F41AA8E09AB08880/libil2cpp.dbg.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_BAEDC4B9155B21B9F41AA8E09AB08880/libil2cpp.dbg.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_BAEDC4B9155B21B9F41AA8E09AB08880/libil2cpp.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_BAEDC4B9155B21B9F41AA8E09AB08880/libil2cpp.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_BAEDC4B9155B21B9F41AA8E09AB08880/libil2cpp.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_BAEDC4B9155B21B9F41AA8E09AB08880/libil2cpp.sym.so
+    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_BAEDC4B9155B21B9F41AA8E09AB08880/libil2cpp.sym.so
+    projectPath: ../../android/unityLibrary/build/il2cpp_armeabi-v7a_Release/il2cpp_cache/linkresult_BAEDC4B9155B21B9F41AA8E09AB08880/libil2cpp.sym.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: android/unityLibrary/src/main/AndroidManifest.xml
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/AndroidManifest.xml
     projectPath: ../../android/unityLibrary/src/main/AndroidManifest.xml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/assets/bin/Data/0000000000000000f000000000000000
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/0000000000000000f000000000000000
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/0000000000000000f000000000000000
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/assets/bin/Data/16e883ec99d2f430cb534e20b0adc6f4
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/16e883ec99d2f430cb534e20b0adc6f4
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/16e883ec99d2f430cb534e20b0adc6f4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: android/unityLibrary/src/main/assets/bin/Data/boot.config
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/boot.config
     projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/boot.config
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/assets/bin/Data/ce374d78b1a274cecaeb2888ed28a00c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/ce374d78b1a274cecaeb2888ed28a00c
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/ce374d78b1a274cecaeb2888ed28a00c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: android/unityLibrary/src/main/assets/bin/Data/globalgamemanagers
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/globalgamemanagers
     projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/globalgamemanagers
@@ -88,828 +388,48 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split10
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split10
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split10
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split100
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split100
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split100
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split101
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split101
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split101
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split102
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split102
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split102
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split103
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split103
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split103
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split104
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split104
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split104
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split105
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split105
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split105
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split106
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split106
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split106
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split107
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split107
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split107
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split108
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split108
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split108
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split109
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split109
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split109
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split11
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split11
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split11
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split110
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split110
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split110
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split111
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split111
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split111
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split112
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split112
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split112
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split113
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split113
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split113
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split114
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split114
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split114
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split115
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split115
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split115
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split116
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split116
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split116
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split117
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split117
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split117
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split118
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split118
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split118
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split119
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split119
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split119
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split12
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split12
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split12
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split120
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split120
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split120
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split121
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split121
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split121
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split13
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split13
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split13
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split14
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split14
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split14
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split15
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split15
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split15
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split16
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split16
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split16
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split17
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split17
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split17
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split18
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split18
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split18
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split19
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split19
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split19
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split2
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split2
     projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split2
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split20
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split20
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split20
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split21
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split21
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split21
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split22
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split22
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split22
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split23
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split23
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split23
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split24
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split24
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split24
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split25
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split25
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split25
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split26
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split26
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split26
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split27
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split27
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split27
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split28
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split28
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split28
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split29
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split29
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split29
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split3
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split3
     projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split30
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split30
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split30
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split31
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split31
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split31
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split32
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split32
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split32
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split33
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split33
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split33
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split34
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split34
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split34
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split35
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split35
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split35
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split36
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split36
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split36
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split37
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split37
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split37
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split38
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split38
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split38
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split39
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split39
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split39
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split4
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split4
     projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split4
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split40
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split40
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split40
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split41
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split41
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split41
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split42
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split42
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split42
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split43
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split43
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split43
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split44
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split44
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split44
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split45
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split45
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split45
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split46
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split46
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split46
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split47
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split47
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split47
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split48
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split48
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split48
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split49
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split49
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split49
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split5
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split5
     projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split50
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split50
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split50
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split51
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split51
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split51
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split52
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split52
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split52
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split53
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split53
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split53
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split54
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split54
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split54
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split55
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split55
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split55
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split56
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split56
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split56
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split57
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split57
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split57
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split58
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split58
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split58
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split59
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split59
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split59
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split6
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split6
     projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split6
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split60
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split60
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split60
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split61
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split61
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split61
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split62
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split62
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split62
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split63
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split63
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split63
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split64
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split64
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split64
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split65
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split65
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split65
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split66
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split66
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split66
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split67
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split67
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split67
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split68
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split68
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split68
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split69
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split69
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split69
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split7
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split7
     projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split7
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split70
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split70
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split70
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split71
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split71
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split71
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split72
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split72
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split72
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split73
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split73
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split73
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split74
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split74
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split74
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split75
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split75
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split75
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split76
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split76
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split76
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split77
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split77
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split77
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split78
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split78
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split78
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split79
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split79
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split79
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split8
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split8
     projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split8
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split80
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split80
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split80
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split81
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split81
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split81
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split82
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split82
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split82
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split83
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split83
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split83
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split84
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split84
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split84
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split85
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split85
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split85
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split86
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split86
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split86
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split87
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split87
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split87
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split88
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split88
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split88
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split89
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split89
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split89
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split9
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split9
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split90
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split90
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split90
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split91
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split91
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split91
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split92
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split92
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split92
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split93
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split93
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split93
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split94
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split94
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split94
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split95
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split95
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split95
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split96
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split96
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split96
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split97
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split97
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split97
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split98
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split98
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split98
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split99
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split99
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.assets.split99
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
-    projectPath: ../../android/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/BeeSettings/offline/artifacts/buildprogram/buildprogram.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/BeeSettings/offline/artifacts/buildprogram/buildprogram.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/BeeSettings/offline/artifacts/buildprogram/buildprogram.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/BeeSettings/offline/bee.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/BeeSettings/offline/bee.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/BeeSettings/offline/bee.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/BeeSettings/offline/Unity.IL2CPP.BeeSettings.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/BeeSettings/offline/Unity.IL2CPP.BeeSettings.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/BeeSettings/offline/Unity.IL2CPP.BeeSettings.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/il2cpp.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/il2cpp.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/il2cpp.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/MiniProfiler.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/MiniProfiler.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/MiniProfiler.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/monolinker.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/monolinker.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/monolinker.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.Cecil.Awesome.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.Cecil.Awesome.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.Cecil.Awesome.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.Cecil.Visitor.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.Cecil.Visitor.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.Cecil.Visitor.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Building.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Building.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Building.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Common.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Common.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Common.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Common35.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Common35.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Common35.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.RuntimeServices.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.RuntimeServices.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.RuntimeServices.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Shell.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Shell.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.IL2CPP.Shell.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.Options.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.Options.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/Unity.Options.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/UnityLinker.pdb
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/UnityLinker.pdb
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/netcoreapp3.1/UnityLinker.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp.cpp
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp.cpp
     projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp.cpp
@@ -925,18 +445,6 @@ MonoBehaviour:
   - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp_CodeGen.c
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp_CodeGen.c
     projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics9.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics9.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Generics9.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCCalculateFieldValues.cpp
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -964,48 +472,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCodeRegistration.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCodeRegistration.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppCodeRegistration.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericClassTable.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericClassTable.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericClassTable.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericInstDefinitions.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericInstDefinitions.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericInstDefinitions.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodDefinitions.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodDefinitions.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodDefinitions.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodTable.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodTable.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppGenericMethodTable.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppInteropDataTable.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppInteropDataTable.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppInteropDataTable.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppInvokerTable.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppInvokerTable.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppInvokerTable.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataRegistration.c
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataRegistration.c
     projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Il2CppMetadataRegistration.c
@@ -1024,363 +490,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_codegen.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_codegen.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_codegen.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_debugger.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_debugger.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_debugger.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_gc.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_gc.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_gc.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_icalls.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_icalls.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_icalls.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_metadata.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_metadata.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_metadata.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_mono.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_mono.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_mono.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_os.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_os.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_os.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_utils.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_utils.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_utils.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_vm.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_vm.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_vm.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_vm-utils.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_vm-utils.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/lumpedcpp/Lump_libil2cpp_vm-utils.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Mono.Security_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Mono.Security_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Mono.Security_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/mscorlib_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Newtonsoft.Json_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Newtonsoft.Json_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Newtonsoft.Json_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/profile.json
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/profile.json
     projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/profile.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Configuration_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Configuration_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Configuration_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Core_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Core_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Core_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Runtime.Serialization_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Runtime.Serialization_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Runtime.Serialization_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Xml.Linq_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Xml.Linq_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Xml.Linq_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Xml_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Xml_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System.Xml_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/System_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.ARCore_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.ARCore_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.ARCore_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.ARFoundation_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.ARFoundation_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.ARFoundation_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.ARSubsystems_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.ARSubsystems_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.ARSubsystems_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.Management_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.Management_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/Unity.XR.Management_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ARModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ARModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ARModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_Attr.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_Attr.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_Attr.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule1.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule1.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.CoreModule1.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ImageConversionModule.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ImageConversionModule.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ImageConversionModule.cpp
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ImageConversionModule_Attr.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ImageConversionModule_Attr.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ImageConversionModule_Attr.cpp
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ImageConversionModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ImageConversionModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ImageConversionModule_CodeGen.c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_Attr.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_Attr.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_Attr.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.InputModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UI_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestModule_Attr.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestModule_Attr.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestModule_Attr.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestTextureModule.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestTextureModule.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestTextureModule.cpp
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_Attr.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_Attr.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_Attr.cpp
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_CodeGen.c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.VideoModule.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.VideoModule.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.VideoModule.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.VideoModule_Attr.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.VideoModule_Attr.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.VideoModule_Attr.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.VideoModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.VideoModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.VideoModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.XRModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.XRModule_CodeGen.c
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnityEngine.XRModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnresolvedVirtualCallStubs.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnresolvedVirtualCallStubs.cpp
-    projectPath: ../../android/unityLibrary/src/main/Il2CppOutputProject/Source/il2cppOutput/UnresolvedVirtualCallStubs.cpp
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1389,22 +501,10 @@ MonoBehaviour:
     projectPath: ../../android/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so
-    projectPath: ../../android/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so
-    originalPath: 
-    indexStatus: 0
     workTreeStatus: 3
   - path: android/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so
     projectPath: ../../android/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: android/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so
-    fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so
-    projectPath: ../../android/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1413,25 +513,223 @@ MonoBehaviour:
     projectPath: ../../android/unityLibrary/symbols/arm64-v8a/libil2cpp.so
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: android/unityLibrary/symbols/armeabi-v7a/libil2cpp.so
     fullPath: /Users/nolove/CTU/ar_ctu/android/unityLibrary/symbols/armeabi-v7a/libil2cpp.so
     projectPath: ../../android/unityLibrary/symbols/armeabi-v7a/libil2cpp.so
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: unity/My AR/Assets/Materials/StreetView/EmptyMaterial.mat
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Assets/Materials/StreetView/EmptyMaterial.mat
-    projectPath: Assets/Materials/StreetView/EmptyMaterial.mat
+    workTreeStatus: 3
+  - path: lib/screens/unity_view/unity_view.dart
+    fullPath: /Users/nolove/CTU/ar_ctu/lib/screens/unity_view/unity_view.dart
+    projectPath: ../../lib/screens/unity_view/unity_view.dart
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: unity/My AR/Assets/Scenes/SampleScene.unity
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Assets/Scenes/SampleScene.unity
+    projectPath: Assets/Scenes/SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: unity/My AR/Assets/Scripts/ARCusor.cs
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Assets/Scripts/ARCusor.cs
+    projectPath: Assets/Scripts/ARCusor.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: unity/My AR/Assets/Scripts/MainCameraController.cs
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Assets/Scripts/MainCameraController.cs
+    projectPath: Assets/Scripts/MainCameraController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: unity/My AR/Assets/Scripts/RoomScript.cs
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Assets/Scripts/RoomScript.cs
+    projectPath: Assets/Scripts/RoomScript.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Assets/Scripts/RoomScript.cs.meta
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Assets/Scripts/RoomScript.cs.meta
+    projectPath: Assets/Scripts/RoomScript.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Assets/Scripts/Test.cs
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Assets/Scripts/Test.cs
+    projectPath: Assets/Scripts/Test.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Assets/Scripts/Test.cs.meta
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Assets/Scripts/Test.cs.meta
+    projectPath: Assets/Scripts/Test.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: unity/My AR/Library/ArtifactDB
     fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/ArtifactDB
     projectPath: Library/ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: unity/My AR/Library/Artifacts/04/04c687c0037f776416ac0b0096a3064e
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/04/04c687c0037f776416ac0b0096a3064e
+    projectPath: Library/Artifacts/04/04c687c0037f776416ac0b0096a3064e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/23/236dac500050ceb5508af308db73c277
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/23/236dac500050ceb5508af308db73c277
+    projectPath: Library/Artifacts/23/236dac500050ceb5508af308db73c277
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/24/24f3bb3bd9beb121582f5b91dadc5671
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/24/24f3bb3bd9beb121582f5b91dadc5671
+    projectPath: Library/Artifacts/24/24f3bb3bd9beb121582f5b91dadc5671
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/29/297e4ecbdd95fe37bbe94960bda3a183
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/29/297e4ecbdd95fe37bbe94960bda3a183
+    projectPath: Library/Artifacts/29/297e4ecbdd95fe37bbe94960bda3a183
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/4d/4dd8f16bb5dc3c6ff9df80902b6fd2b3
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/4d/4dd8f16bb5dc3c6ff9df80902b6fd2b3
+    projectPath: Library/Artifacts/4d/4dd8f16bb5dc3c6ff9df80902b6fd2b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/5d/5dd6f7649f4a7c486f7fc6b38793a289
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/5d/5dd6f7649f4a7c486f7fc6b38793a289
+    projectPath: Library/Artifacts/5d/5dd6f7649f4a7c486f7fc6b38793a289
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/60/60320d072f999d8c3c35a6a0e56c64cb
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/60/60320d072f999d8c3c35a6a0e56c64cb
+    projectPath: Library/Artifacts/60/60320d072f999d8c3c35a6a0e56c64cb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/6d/6d49df617d73d0c7fe727731cd7d7d22
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/6d/6d49df617d73d0c7fe727731cd7d7d22
+    projectPath: Library/Artifacts/6d/6d49df617d73d0c7fe727731cd7d7d22
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/7a/7a20bf0d56b456a3917a07da37b5ae6c
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/7a/7a20bf0d56b456a3917a07da37b5ae6c
+    projectPath: Library/Artifacts/7a/7a20bf0d56b456a3917a07da37b5ae6c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/86/8689bf70f71bbf5388af00ee06cf94b9
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/86/8689bf70f71bbf5388af00ee06cf94b9
+    projectPath: Library/Artifacts/86/8689bf70f71bbf5388af00ee06cf94b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/86/86902a07ca89901274ea345763dcd974
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/86/86902a07ca89901274ea345763dcd974
+    projectPath: Library/Artifacts/86/86902a07ca89901274ea345763dcd974
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/8b/8b9ac161997b45b7d08ce0aa8a767535
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/8b/8b9ac161997b45b7d08ce0aa8a767535
+    projectPath: Library/Artifacts/8b/8b9ac161997b45b7d08ce0aa8a767535
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/8f/8fb50093427fe6da1df3998794a6ad52
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/8f/8fb50093427fe6da1df3998794a6ad52
+    projectPath: Library/Artifacts/8f/8fb50093427fe6da1df3998794a6ad52
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/92/9288b57abf50075b7d11853eff1d4807
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/92/9288b57abf50075b7d11853eff1d4807
+    projectPath: Library/Artifacts/92/9288b57abf50075b7d11853eff1d4807
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/9c/9c066839baa6d2256ffeaa3a4f696396
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/9c/9c066839baa6d2256ffeaa3a4f696396
+    projectPath: Library/Artifacts/9c/9c066839baa6d2256ffeaa3a4f696396
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/9d/9d61683a77f71d636097bfe732206906
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/9d/9d61683a77f71d636097bfe732206906
+    projectPath: Library/Artifacts/9d/9d61683a77f71d636097bfe732206906
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/ae/aeec9301b2a23b814f687b3b0cf933e4
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/ae/aeec9301b2a23b814f687b3b0cf933e4
+    projectPath: Library/Artifacts/ae/aeec9301b2a23b814f687b3b0cf933e4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/c3/c357557d690efd64ff4f0a88091d24aa
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/c3/c357557d690efd64ff4f0a88091d24aa
+    projectPath: Library/Artifacts/c3/c357557d690efd64ff4f0a88091d24aa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/cc/cc0d2a05c4d0e4943e460f06082f19d6
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/cc/cc0d2a05c4d0e4943e460f06082f19d6
+    projectPath: Library/Artifacts/cc/cc0d2a05c4d0e4943e460f06082f19d6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/ce/ce63a12423831c6713e6a107c99b66e0
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/ce/ce63a12423831c6713e6a107c99b66e0
+    projectPath: Library/Artifacts/ce/ce63a12423831c6713e6a107c99b66e0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/dd/ddbfe76388672d2742cc1850d7c9b538
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/dd/ddbfe76388672d2742cc1850d7c9b538
+    projectPath: Library/Artifacts/dd/ddbfe76388672d2742cc1850d7c9b538
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/e2/e2be837a8c0c4611ad66d1452fb687cf
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/e2/e2be837a8c0c4611ad66d1452fb687cf
+    projectPath: Library/Artifacts/e2/e2be837a8c0c4611ad66d1452fb687cf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/e9/e9e1cf8b57474b3b548837858275307e
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/e9/e9e1cf8b57474b3b548837858275307e
+    projectPath: Library/Artifacts/e9/e9e1cf8b57474b3b548837858275307e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/f4/f436c112979d0dca359e36e5333f185f
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/f4/f436c112979d0dca359e36e5333f185f
+    projectPath: Library/Artifacts/f4/f436c112979d0dca359e36e5333f185f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/fa/fa73405c5b27d498bd110f3a10c39e0e
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/fa/fa73405c5b27d498bd110f3a10c39e0e
+    projectPath: Library/Artifacts/fa/fa73405c5b27d498bd110f3a10c39e0e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Library/Artifacts/fe/fef119f7eccbdb524a7c44864e37daf3
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Artifacts/fe/fef119f7eccbdb524a7c44864e37daf3
+    projectPath: Library/Artifacts/fe/fef119f7eccbdb524a7c44864e37daf3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: unity/My AR/Library/BuildPlayerData/Editor/TypeDb-All.json
     fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/BuildPlayerData/Editor/TypeDb-All.json
     projectPath: Library/BuildPlayerData/Editor/TypeDb-All.json
@@ -1444,9 +742,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: unity/My AR/Library/gfu/cache/branches.yaml
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/gfu/cache/branches.yaml
-    projectPath: Library/gfu/cache/branches.yaml
+  - path: unity/My AR/Library/CurrentMaximizeLayout.dwlt
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/CurrentMaximizeLayout.dwlt
+    projectPath: Library/CurrentMaximizeLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1492,21 +790,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/artifacts/tundra.dag.json
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/artifacts/tundra.dag.json
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/artifacts/tundra.dag.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/artifacts/tundra.digestcache
     fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/artifacts/tundra.digestcache
     projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/artifacts/tundra.digestcache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/artifacts/tundra.log.json
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/artifacts/tundra.log.json
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/artifacts/tundra.log.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1540,12 +826,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCCalculateFieldValues.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCCalculateFieldValues.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCCalculateFieldValues.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCCalculateFieldValues1.cpp
     fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCCalculateFieldValues1.cpp
     projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCCalculateFieldValues1.cpp
@@ -1570,36 +850,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCodeRegistration.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCodeRegistration.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppCodeRegistration.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericMethodDefinitions.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericMethodDefinitions.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericMethodDefinitions.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericMethodTable.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericMethodTable.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppGenericMethodTable.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppInteropDataTable.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppInteropDataTable.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppInteropDataTable.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppInvokerTable.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppInvokerTable.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppInvokerTable.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppMetadataRegistration.c
     fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppMetadataRegistration.c
     projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Il2CppMetadataRegistration.c
@@ -1618,261 +868,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Mono.Security_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Mono.Security_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Mono.Security_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/mscorlib_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Newtonsoft.Json_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Newtonsoft.Json_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Newtonsoft.Json_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/profile.json
     fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/profile.json
     projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/profile.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Configuration_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Configuration_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Configuration_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Core_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Core_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Core_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Xml.Linq_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Xml.Linq_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Xml.Linq_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Xml_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Xml_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System.Xml_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/System_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.ARCore_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.ARCore_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.ARCore_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.ARFoundation_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.ARFoundation_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.ARFoundation_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.ARSubsystems_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.ARSubsystems_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.ARSubsystems_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.Management_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.Management_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/Unity.XR.Management_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ARModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ARModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ARModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule_Attr.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule_Attr.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule_Attr.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule1.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule1.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.CoreModule1.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ImageConversionModule.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ImageConversionModule.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ImageConversionModule.cpp
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ImageConversionModule_Attr.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ImageConversionModule_Attr.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ImageConversionModule_Attr.cpp
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ImageConversionModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ImageConversionModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ImageConversionModule_CodeGen.c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.InputModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.InputModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.InputModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UI_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UI_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UI_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UIModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UIModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UIModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestModule_Attr.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestModule_Attr.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestModule_Attr.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestTextureModule.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestTextureModule.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestTextureModule.cpp
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_Attr.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_Attr.cpp
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_Attr.cpp
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_CodeGen.c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.XRModule_CodeGen.c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.XRModule_CodeGen.c
-    projectPath: Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput/UnityEngine.XRModule_CodeGen.c
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1960,15 +958,51 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: unity/My AR/Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: unity/My AR/Library/ShaderCache/EditorEncounteredVariants
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/ShaderCache/EditorEncounteredVariants
+    projectPath: Library/ShaderCache/EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: unity/My AR/Library/SourceAssetDB
     fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/SourceAssetDB
     projectPath: Library/SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: unity/My AR/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+    projectPath: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: unity/My AR/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+    projectPath: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: unity/My AR/ProjectSettings/ProjectSettings.asset
     fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/ProjectSettings/ProjectSettings.asset
     projectPath: ProjectSettings/ProjectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: unity/My AR/Temp/__Backupscenes/0.backup
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: unity/My AR/Temp/Assembly-CSharp.dll.hash
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/Assembly-CSharp.dll.hash
+    projectPath: Temp/Assembly-CSharp.dll.hash
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -2098,12 +1132,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/Il2Cpp/Managed/ICallSummary.txt
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/Il2Cpp/Managed/ICallSummary.txt
-    projectPath: Temp/StagingArea/Il2Cpp/Managed/ICallSummary.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: unity/My AR/Temp/StagingArea/Il2Cpp/Managed/response.rsp
     fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/Il2Cpp/Managed/response.rsp
     projectPath: Temp/StagingArea/Il2Cpp/Managed/response.rsp
@@ -2116,189 +1144,393 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityEngine.CoreModule.dll
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityEngine.CoreModule.dll
-    projectPath: Temp/StagingArea/Il2Cpp/Managed/UnityEngine.CoreModule.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityEngine.dll
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityEngine.dll
-    projectPath: Temp/StagingArea/Il2Cpp/Managed/UnityEngine.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityEngine.ImageConversionModule.dll
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityEngine.ImageConversionModule.dll
-    projectPath: Temp/StagingArea/Il2Cpp/Managed/UnityEngine.ImageConversionModule.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityEngine.UnityWebRequestModule.dll
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityEngine.UnityWebRequestModule.dll
-    projectPath: Temp/StagingArea/Il2Cpp/Managed/UnityEngine.UnityWebRequestModule.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityEngine.UnityWebRequestTextureModule.dll
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityEngine.UnityWebRequestTextureModule.dll
-    projectPath: Temp/StagingArea/Il2Cpp/Managed/UnityEngine.UnityWebRequestTextureModule.dll
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityICallRegistration.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityICallRegistration.cpp
-    projectPath: Temp/StagingArea/Il2Cpp/Managed/UnityICallRegistration.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityLinkerToEditorData.json
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/Il2Cpp/Managed/UnityLinkerToEditorData.json
-    projectPath: Temp/StagingArea/Il2Cpp/Managed/UnityLinkerToEditorData.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/libs/arm64-v8a/libunity.so
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/libs/arm64-v8a/libunity.so
-    projectPath: Temp/StagingArea/libs/arm64-v8a/libunity.so
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/libs/armeabi-v7a/libunity.so
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/libs/armeabi-v7a/libunity.so
-    projectPath: Temp/StagingArea/libs/armeabi-v7a/libunity.so
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: unity/My AR/Temp/StagingArea/raw/bin/Data/data.unity3d
     fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/raw/bin/Data/data.unity3d
     projectPath: Temp/StagingArea/raw/bin/Data/data.unity3d
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: unity/My AR/Temp/StagingArea/strip/arm64-v8a/UnityClassRegistration.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/strip/arm64-v8a/UnityClassRegistration.cpp
-    projectPath: Temp/StagingArea/strip/arm64-v8a/UnityClassRegistration.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/strip/arm64-v8a/UnityClassRegistration.o
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/strip/arm64-v8a/UnityClassRegistration.o
-    projectPath: Temp/StagingArea/strip/arm64-v8a/UnityClassRegistration.o
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/strip/arm64-v8a/UnityICallRegistration.o
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/strip/arm64-v8a/UnityICallRegistration.o
-    projectPath: Temp/StagingArea/strip/arm64-v8a/UnityICallRegistration.o
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/strip/armeabi-v7a/UnityClassRegistration.cpp
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/strip/armeabi-v7a/UnityClassRegistration.cpp
-    projectPath: Temp/StagingArea/strip/armeabi-v7a/UnityClassRegistration.cpp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/strip/armeabi-v7a/UnityClassRegistration.o
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/strip/armeabi-v7a/UnityClassRegistration.o
-    projectPath: Temp/StagingArea/strip/armeabi-v7a/UnityClassRegistration.o
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/strip/armeabi-v7a/UnityICallRegistration.o
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/strip/armeabi-v7a/UnityICallRegistration.o
-    projectPath: Temp/StagingArea/strip/armeabi-v7a/UnityICallRegistration.o
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/symbols/arm64-v8a/libunity.sym.so
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/symbols/arm64-v8a/libunity.sym.so
-    projectPath: Temp/StagingArea/symbols/arm64-v8a/libunity.sym.so
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: unity/My AR/Temp/StagingArea/symbols/armeabi-v7a/libunity.sym.so
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/symbols/armeabi-v7a/libunity.sym.so
-    projectPath: Temp/StagingArea/symbols/armeabi-v7a/libunity.sym.so
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: unity/My AR/Temp/StagingArea/UnityManifest.xml
     fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/StagingArea/UnityManifest.xml
     projectPath: Temp/StagingArea/UnityManifest.xml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: unity/My AR/Temp/UnityTempFile-0bb603010390d4f6ba7594a28e9deee0
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-0bb603010390d4f6ba7594a28e9deee0
-    projectPath: Temp/UnityTempFile-0bb603010390d4f6ba7594a28e9deee0
+  - path: unity/My AR/Temp/UnityTempFile-0693b3cbb4f52444cbcdf96633c56206
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-0693b3cbb4f52444cbcdf96633c56206
+    projectPath: Temp/UnityTempFile-0693b3cbb4f52444cbcdf96633c56206
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity/My AR/Temp/UnityTempFile-15a70fd6f14ec4dfa9a16796b6747dbb
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-15a70fd6f14ec4dfa9a16796b6747dbb
-    projectPath: Temp/UnityTempFile-15a70fd6f14ec4dfa9a16796b6747dbb
+  - path: unity/My AR/Temp/UnityTempFile-06be8b16a79044eba98fabc2fe33b70f
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-06be8b16a79044eba98fabc2fe33b70f
+    projectPath: Temp/UnityTempFile-06be8b16a79044eba98fabc2fe33b70f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity/My AR/Temp/UnityTempFile-456ae02cd4a434436982532df6b80936
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-456ae02cd4a434436982532df6b80936
-    projectPath: Temp/UnityTempFile-456ae02cd4a434436982532df6b80936
+  - path: unity/My AR/Temp/UnityTempFile-070674b81ceb9485293d81f762fb8193
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-070674b81ceb9485293d81f762fb8193
+    projectPath: Temp/UnityTempFile-070674b81ceb9485293d81f762fb8193
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity/My AR/Temp/UnityTempFile-5ab6db5c925ae4101abbe7b4db701f01
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-5ab6db5c925ae4101abbe7b4db701f01
-    projectPath: Temp/UnityTempFile-5ab6db5c925ae4101abbe7b4db701f01
+  - path: unity/My AR/Temp/UnityTempFile-0b4fa26a5dea4495fa6eb3647fd06c90
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-0b4fa26a5dea4495fa6eb3647fd06c90
+    projectPath: Temp/UnityTempFile-0b4fa26a5dea4495fa6eb3647fd06c90
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity/My AR/Temp/UnityTempFile-5b19500498f0a476e8e15dda3f75fdaf
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-5b19500498f0a476e8e15dda3f75fdaf
-    projectPath: Temp/UnityTempFile-5b19500498f0a476e8e15dda3f75fdaf
+  - path: unity/My AR/Temp/UnityTempFile-0bb2b798ba6d74343b92f4db5f057b95
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-0bb2b798ba6d74343b92f4db5f057b95
+    projectPath: Temp/UnityTempFile-0bb2b798ba6d74343b92f4db5f057b95
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity/My AR/Temp/UnityTempFile-5c931ac51f4b54a11848ea64b7febb8b
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-5c931ac51f4b54a11848ea64b7febb8b
-    projectPath: Temp/UnityTempFile-5c931ac51f4b54a11848ea64b7febb8b
+  - path: unity/My AR/Temp/UnityTempFile-0e3bd86b40ab64007ac4cf2326e842bd
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-0e3bd86b40ab64007ac4cf2326e842bd
+    projectPath: Temp/UnityTempFile-0e3bd86b40ab64007ac4cf2326e842bd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity/My AR/Temp/UnityTempFile-600d70e1f93af404b83142ff71ac7234
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-600d70e1f93af404b83142ff71ac7234
-    projectPath: Temp/UnityTempFile-600d70e1f93af404b83142ff71ac7234
+  - path: unity/My AR/Temp/UnityTempFile-108a262b07fbd4d4d8d1b5fbfc7f9b59
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-108a262b07fbd4d4d8d1b5fbfc7f9b59
+    projectPath: Temp/UnityTempFile-108a262b07fbd4d4d8d1b5fbfc7f9b59
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity/My AR/Temp/UnityTempFile-7033fc9a02a194643a2ce02fce80787c
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-7033fc9a02a194643a2ce02fce80787c
-    projectPath: Temp/UnityTempFile-7033fc9a02a194643a2ce02fce80787c
+  - path: unity/My AR/Temp/UnityTempFile-13cd0f0ce04114f0886838a19d9f96b4
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-13cd0f0ce04114f0886838a19d9f96b4
+    projectPath: Temp/UnityTempFile-13cd0f0ce04114f0886838a19d9f96b4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity/My AR/Temp/UnityTempFile-83fc91b1661bf41f09f591218105873f
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-83fc91b1661bf41f09f591218105873f
-    projectPath: Temp/UnityTempFile-83fc91b1661bf41f09f591218105873f
+  - path: unity/My AR/Temp/UnityTempFile-1a54b14171fbf46f68f95ebf57babae6
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-1a54b14171fbf46f68f95ebf57babae6
+    projectPath: Temp/UnityTempFile-1a54b14171fbf46f68f95ebf57babae6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity/My AR/Temp/UnityTempFile-8ff1cfa7a91144b44a8f9ff07a9d719f
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-8ff1cfa7a91144b44a8f9ff07a9d719f
-    projectPath: Temp/UnityTempFile-8ff1cfa7a91144b44a8f9ff07a9d719f
+  - path: unity/My AR/Temp/UnityTempFile-1b644c841c34b447a96ff4a716a66ac5
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-1b644c841c34b447a96ff4a716a66ac5
+    projectPath: Temp/UnityTempFile-1b644c841c34b447a96ff4a716a66ac5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity/My AR/Temp/UnityTempFile-b0a30a2571ab24836b623f8360767dc4
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-b0a30a2571ab24836b623f8360767dc4
-    projectPath: Temp/UnityTempFile-b0a30a2571ab24836b623f8360767dc4
+  - path: unity/My AR/Temp/UnityTempFile-1fd9c9275032346dd90732a4e8079d0f
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-1fd9c9275032346dd90732a4e8079d0f
+    projectPath: Temp/UnityTempFile-1fd9c9275032346dd90732a4e8079d0f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: unity/My AR/Temp/UnityTempFile-e307a66186c9240d096cbbd3921eb4da
-    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-e307a66186c9240d096cbbd3921eb4da
-    projectPath: Temp/UnityTempFile-e307a66186c9240d096cbbd3921eb4da
+  - path: unity/My AR/Temp/UnityTempFile-2041e39f712ce4f2f80b4e35c5089c80
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-2041e39f712ce4f2f80b4e35c5089c80
+    projectPath: Temp/UnityTempFile-2041e39f712ce4f2f80b4e35c5089c80
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-22b52b200ce3a4ed4b1052b346dacb35
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-22b52b200ce3a4ed4b1052b346dacb35
+    projectPath: Temp/UnityTempFile-22b52b200ce3a4ed4b1052b346dacb35
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-24ba826a9d5fb458da648f252af1f9a8
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-24ba826a9d5fb458da648f252af1f9a8
+    projectPath: Temp/UnityTempFile-24ba826a9d5fb458da648f252af1f9a8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-282228939e8b741d3b8fe5a61df6b4dd
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-282228939e8b741d3b8fe5a61df6b4dd
+    projectPath: Temp/UnityTempFile-282228939e8b741d3b8fe5a61df6b4dd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-297ffb5f7d6a5438f9b57c11c8c32d1b
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-297ffb5f7d6a5438f9b57c11c8c32d1b
+    projectPath: Temp/UnityTempFile-297ffb5f7d6a5438f9b57c11c8c32d1b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-2ced04f9d7c994e04aef8ae58ec9a964
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-2ced04f9d7c994e04aef8ae58ec9a964
+    projectPath: Temp/UnityTempFile-2ced04f9d7c994e04aef8ae58ec9a964
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-322b62f7c4a7e443e889a0c343725180
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-322b62f7c4a7e443e889a0c343725180
+    projectPath: Temp/UnityTempFile-322b62f7c4a7e443e889a0c343725180
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-35c9623e71a804c929754f5fc7409800
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-35c9623e71a804c929754f5fc7409800
+    projectPath: Temp/UnityTempFile-35c9623e71a804c929754f5fc7409800
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-39c744f31835840f5981d89f5973907e
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-39c744f31835840f5981d89f5973907e
+    projectPath: Temp/UnityTempFile-39c744f31835840f5981d89f5973907e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-415c9f97499f44536a0b2092a8768c61
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-415c9f97499f44536a0b2092a8768c61
+    projectPath: Temp/UnityTempFile-415c9f97499f44536a0b2092a8768c61
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-42dff87bfe5344d60bf1fc62131eeeb5
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-42dff87bfe5344d60bf1fc62131eeeb5
+    projectPath: Temp/UnityTempFile-42dff87bfe5344d60bf1fc62131eeeb5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-430f88ea941e54e92be2f4c9ccae34b6
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-430f88ea941e54e92be2f4c9ccae34b6
+    projectPath: Temp/UnityTempFile-430f88ea941e54e92be2f4c9ccae34b6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-48a886a5176a043eeae815c761e81b69
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-48a886a5176a043eeae815c761e81b69
+    projectPath: Temp/UnityTempFile-48a886a5176a043eeae815c761e81b69
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-4b4decb14a87b47c8acb1a6c600b739a
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-4b4decb14a87b47c8acb1a6c600b739a
+    projectPath: Temp/UnityTempFile-4b4decb14a87b47c8acb1a6c600b739a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-59900b6017dc64862a73bf2f1560118b
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-59900b6017dc64862a73bf2f1560118b
+    projectPath: Temp/UnityTempFile-59900b6017dc64862a73bf2f1560118b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-5d32e4438dded4fb5b3f2838da9a558a
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-5d32e4438dded4fb5b3f2838da9a558a
+    projectPath: Temp/UnityTempFile-5d32e4438dded4fb5b3f2838da9a558a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-5f123c2056c224e1b8eaf254b34fa425
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-5f123c2056c224e1b8eaf254b34fa425
+    projectPath: Temp/UnityTempFile-5f123c2056c224e1b8eaf254b34fa425
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-5f88b22e59efe43f9a2844e842103a35
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-5f88b22e59efe43f9a2844e842103a35
+    projectPath: Temp/UnityTempFile-5f88b22e59efe43f9a2844e842103a35
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-619e706b6f8a9405fbba82b9a7757bc0
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-619e706b6f8a9405fbba82b9a7757bc0
+    projectPath: Temp/UnityTempFile-619e706b6f8a9405fbba82b9a7757bc0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-62585b386734a42efb305203467c0134
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-62585b386734a42efb305203467c0134
+    projectPath: Temp/UnityTempFile-62585b386734a42efb305203467c0134
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-62ce8afe526fa4104896f99a9b049d00
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-62ce8afe526fa4104896f99a9b049d00
+    projectPath: Temp/UnityTempFile-62ce8afe526fa4104896f99a9b049d00
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-65d179f8eb184422589bb236b1baea6c
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-65d179f8eb184422589bb236b1baea6c
+    projectPath: Temp/UnityTempFile-65d179f8eb184422589bb236b1baea6c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-68787a0f13fe44a23955a0823af1ae8b
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-68787a0f13fe44a23955a0823af1ae8b
+    projectPath: Temp/UnityTempFile-68787a0f13fe44a23955a0823af1ae8b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-6b37cae8b281c4dc9a1cb9f7e3533746
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-6b37cae8b281c4dc9a1cb9f7e3533746
+    projectPath: Temp/UnityTempFile-6b37cae8b281c4dc9a1cb9f7e3533746
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-78df5abc36b1a4e96890b2b7d291e585
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-78df5abc36b1a4e96890b2b7d291e585
+    projectPath: Temp/UnityTempFile-78df5abc36b1a4e96890b2b7d291e585
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-830f8f7c3fe684970878ecf90a03a613
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-830f8f7c3fe684970878ecf90a03a613
+    projectPath: Temp/UnityTempFile-830f8f7c3fe684970878ecf90a03a613
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-8458dc55aa37e45e99fe8027692626b9
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-8458dc55aa37e45e99fe8027692626b9
+    projectPath: Temp/UnityTempFile-8458dc55aa37e45e99fe8027692626b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-84fb351bd2d6f4d9f828a999ccbc4a04
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-84fb351bd2d6f4d9f828a999ccbc4a04
+    projectPath: Temp/UnityTempFile-84fb351bd2d6f4d9f828a999ccbc4a04
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-8a2e3e8017fe84fd499c897333fc16dc
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-8a2e3e8017fe84fd499c897333fc16dc
+    projectPath: Temp/UnityTempFile-8a2e3e8017fe84fd499c897333fc16dc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-8d0eb5c4915294221b0a874d3e742fd9
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-8d0eb5c4915294221b0a874d3e742fd9
+    projectPath: Temp/UnityTempFile-8d0eb5c4915294221b0a874d3e742fd9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-8dd4263e264994d6f84c74341793f537
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-8dd4263e264994d6f84c74341793f537
+    projectPath: Temp/UnityTempFile-8dd4263e264994d6f84c74341793f537
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-96e947e5282c947dbb690f09164ab4f4
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-96e947e5282c947dbb690f09164ab4f4
+    projectPath: Temp/UnityTempFile-96e947e5282c947dbb690f09164ab4f4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-98fdbbbec4e8e4c2584c887592ee0cef
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-98fdbbbec4e8e4c2584c887592ee0cef
+    projectPath: Temp/UnityTempFile-98fdbbbec4e8e4c2584c887592ee0cef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-994b45e6a6d134165a637626ec96288a
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-994b45e6a6d134165a637626ec96288a
+    projectPath: Temp/UnityTempFile-994b45e6a6d134165a637626ec96288a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-a9c371026b3ae468ab2b5311ca4b16de
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-a9c371026b3ae468ab2b5311ca4b16de
+    projectPath: Temp/UnityTempFile-a9c371026b3ae468ab2b5311ca4b16de
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-b0a3d55e91a704c21b59797e76562aed
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-b0a3d55e91a704c21b59797e76562aed
+    projectPath: Temp/UnityTempFile-b0a3d55e91a704c21b59797e76562aed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-b681e5826036f4dd1bf8fff56875298e
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-b681e5826036f4dd1bf8fff56875298e
+    projectPath: Temp/UnityTempFile-b681e5826036f4dd1bf8fff56875298e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-c3c46bbe470454101aad283b56e36935
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-c3c46bbe470454101aad283b56e36935
+    projectPath: Temp/UnityTempFile-c3c46bbe470454101aad283b56e36935
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-c6624b9746a5343df9de7a095596a99d
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-c6624b9746a5343df9de7a095596a99d
+    projectPath: Temp/UnityTempFile-c6624b9746a5343df9de7a095596a99d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-c76074a7bf6a14c74ac65ce2bf532d4a
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-c76074a7bf6a14c74ac65ce2bf532d4a
+    projectPath: Temp/UnityTempFile-c76074a7bf6a14c74ac65ce2bf532d4a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-cc3deb34956fc4a5788687bd730bae14
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-cc3deb34956fc4a5788687bd730bae14
+    projectPath: Temp/UnityTempFile-cc3deb34956fc4a5788687bd730bae14
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-d22d0be674abb402a9aca808a7f91fd2
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-d22d0be674abb402a9aca808a7f91fd2
+    projectPath: Temp/UnityTempFile-d22d0be674abb402a9aca808a7f91fd2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-d3cb4492f4c6c415890d1f8a62bfa51d
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-d3cb4492f4c6c415890d1f8a62bfa51d
+    projectPath: Temp/UnityTempFile-d3cb4492f4c6c415890d1f8a62bfa51d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-e2f55b95010f54f0aac04efdca204a67
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-e2f55b95010f54f0aac04efdca204a67
+    projectPath: Temp/UnityTempFile-e2f55b95010f54f0aac04efdca204a67
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-e8ac9df281b4f4b69bed774c3f9d7761
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-e8ac9df281b4f4b69bed774c3f9d7761
+    projectPath: Temp/UnityTempFile-e8ac9df281b4f4b69bed774c3f9d7761
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-ee8bb02a618634beaa48145b816bee94
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-ee8bb02a618634beaa48145b816bee94
+    projectPath: Temp/UnityTempFile-ee8bb02a618634beaa48145b816bee94
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-f10a0d573a2224bfabb19cb1947c5838
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-f10a0d573a2224bfabb19cb1947c5838
+    projectPath: Temp/UnityTempFile-f10a0d573a2224bfabb19cb1947c5838
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-f13b3b375796542f582e2c4ee7d86da1
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-f13b3b375796542f582e2c4ee7d86da1
+    projectPath: Temp/UnityTempFile-f13b3b375796542f582e2c4ee7d86da1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-f3235b620a6714e8b9d512ceef2c821e
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-f3235b620a6714e8b9d512ceef2c821e
+    projectPath: Temp/UnityTempFile-f3235b620a6714e8b9d512ceef2c821e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-f61cfd3f1780c4432b8a936b706a31dd
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-f61cfd3f1780c4432b8a936b706a31dd
+    projectPath: Temp/UnityTempFile-f61cfd3f1780c4432b8a936b706a31dd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-fa2b9ccc7d7914653a5577cd3af51bb7
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-fa2b9ccc7d7914653a5577cd3af51bb7
+    projectPath: Temp/UnityTempFile-fa2b9ccc7d7914653a5577cd3af51bb7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: unity/My AR/Temp/UnityTempFile-fbcddc1180c694f709de62b25367646a
+    fullPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Temp/UnityTempFile-fbcddc1180c694f709de62b25367646a
+    projectPath: Temp/UnityTempFile-fbcddc1180c694f709de62b25367646a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

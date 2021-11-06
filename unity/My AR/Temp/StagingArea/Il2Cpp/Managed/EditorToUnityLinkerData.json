@@ -487,6 +487,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Test",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Unity.XR.ARCore.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.ARCore.ARCoreLoader",

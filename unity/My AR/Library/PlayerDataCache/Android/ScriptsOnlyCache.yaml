@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - ExampleSc
     - MainCameraController
     - PortalManager
+    - Test
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
     - GitHub.Unity.BranchesCache
@@ -121,6 +122,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4300}
     - Class: 114
       Script: {instanceID: 92344}
+    - Class: 114
+      Script: {instanceID: 126820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -782,7 +785,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 5edd6434708f5c280165092f26e4bc8c
+      Hash: 51c3f7f53601c961e466d7cad49e0ba3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainCameraController
@@ -954,7 +957,13 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ExampleSc
+  - hash:
+      serializedVersion: 2
+      Hash: cdac837d37f2229996eb755918dd314d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Test
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/nolove/Downloads
+  playerPath: /Users/nolove/CTU/ar_ctu/unity/My AR/Builds/My AR.apk

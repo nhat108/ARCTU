@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-11-04T21:32:58.324+07:00
+  lastUpdatedAtString: 2021-11-06T14:56:02.031+07:00
   initializedAtString: 2021-11-04T11:18:56.722+07:00
   currentGitRemote:
-    name: 
-    url: 
+    name: demo_app
+    url: https://github.com/nhat108/ARCTU.git
     login: 
     user: 
     host: 
@@ -25,14 +25,14 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: demo_app/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: demo_app
+      url: https://github.com/nhat108/ARCTU.git
+    trackingBranch: master
   currentConfigRemote:
-    name: 
-    url: 
+    name: demo_app
+    url: https://github.com/nhat108/ARCTU.git
   currentHead: 
