@@ -3147,7 +3147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Room: {fileID: 1149716308}
-  emptyGameObjectPrefab: {fileID: 998663487}
+  EmptyMaterial: {fileID: 2100000, guid: 502ef4753e55e46ecb50d2d56f4fe6b0, type: 2}
+  EmptySphere: {fileID: 998663487}
 --- !u!4 &1149716310
 Transform:
   m_ObjectHideFlags: 0
