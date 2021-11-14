@@ -28,8 +28,8 @@ class _UnityViewState extends State<UnityView> {
     return Scaffold(
       key: _scaffoldKey,
       floatingActionButton: FloatingActionButton(onPressed: () {
-        _unityWidgetController!
-            .postMessage('RoomType1', "LoadImage360", widget.image360s);
+        _unityWidgetController!.postMessage('RoomType1', 'LoadImage360',
+            widget.image360s.reduce((value, element) => value + ',' + element));
       }),
       body: SafeArea(
         bottom: false,
