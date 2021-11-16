@@ -28,6 +28,7 @@ class SignUp extends AuthEvent {
   final String password;
   final String fullName;
   final VoidCallback onSuccess;
+  final File? image;
   final Function(String) onError;
   SignUp({
     required this.email,
@@ -35,5 +36,6 @@ class SignUp extends AuthEvent {
     required this.fullName,
     required this.onError,
     required this.onSuccess,
+    this.image,
   });
 }

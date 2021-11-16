@@ -1,6 +1,6 @@
 import 'package:ar_ctu/screens/home/property_type.dart';
 import 'package:ar_ctu/screens/home/recommended.dart';
-import 'package:ar_ctu/utils/app_colors.dart';
+
 import 'package:flutter/material.dart';
 
 import 'home_appbar.dart';

@@ -1,8 +1,11 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:ar_ctu/repositories/auth_repository.dart';
+import 'package:ar_ctu/repositories/firestore_repository.dart';
 import 'package:ar_ctu/utils/parseError.dart';
 import 'package:bloc/bloc.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
 import 'package:equatable/equatable.dart';
@@ -12,6 +15,7 @@ part 'auth_state.dart';
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   AuthBloc() : super(AuthState.empty());
   final AuthRepository authRepository = AuthRepository();
+  final FirestoreRepository firestoreRepository = FirestoreRepository();
   @override
   Stream<AuthState> mapEventToState(
     AuthEvent event,
@@ -23,6 +27,10 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
     } else if (event is SignUp) {
       yield* _signUp(event);
     }
+  }
+
+  Stream<User?> authStateChanges() {
+    return authRepository.authStateChanges();
   }
 
   Stream<AuthState> _getCheckEmailExisted(CheckEmailExisted event) async* {
@@ -67,10 +75,18 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
       yield state.copyWith(
         isAuthLoading: true,
       );
+      String imageUrl = '';
+      if (event.image != null) {
+        imageUrl = await firestoreRepository.upLoadImage(
+            path: 'users/${event.email}', file: event.image!);
+      }
       await authRepository.signUp(
-          fullName: event.fullName,
-          email: event.email,
-          password: event.password);
+        fullName: event.fullName,
+        email: event.email,
+        password: event.password,
+        imageUrl: imageUrl,
+      );
+
       event.onSuccess();
       yield state.copyWith(
         isAuthLoading: false,
