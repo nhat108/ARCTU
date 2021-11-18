@@ -66,6 +66,7 @@ class ProfileBloc extends Bloc<ProfileEvent, ProfileState> {
       );
       yield state.copyWith(updateProfileLoading: false);
       add(GetProfile(userId: event.id));
+      event.onSuccess();
     } catch (e) {
       ParseError error = ParseError.fromJson(e);
       event.onError(error.message);

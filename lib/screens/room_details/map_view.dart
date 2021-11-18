@@ -1,10 +1,56 @@
+import 'package:ar_ctu/models/streetview.dart';
 import 'package:ar_ctu/utils/app_colors.dart';
+import 'package:ar_ctu/utils/app_routes.dart';
 import 'package:ar_ctu/utils/app_styles.dart';
 import 'package:ar_ctu/widgets/cache_image_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
+import 'package:location/location.dart';
 
-class MapView extends StatelessWidget {
-  const MapView({Key? key}) : super(key: key);
+import 'google_map_view/google_map_view.dart';
+
+class MapView extends StatefulWidget {
+  final RoomDetails roomDetails;
+  const MapView({Key? key, required this.roomDetails}) : super(key: key);
+
+  @override
+  State<MapView> createState() => _MapViewState();
+}
+
+class _MapViewState extends State<MapView> {
+  Location location = new Location();
+  bool _serviceEnabled = false;
+  double distance = 0;
+  PermissionStatus _permissionGranted = PermissionStatus.denied;
+
+  @override
+  void initState() {
+    _checkPermission();
+    super.initState();
+  }
+
+  _checkPermission() async {
+    _serviceEnabled = await location.serviceEnabled();
+    if (!_serviceEnabled) {
+      _serviceEnabled = await location.requestService();
+      if (!_serviceEnabled) {
+        return;
+      }
+    }
+    _permissionGranted = await location.hasPermission();
+    if (_permissionGranted == PermissionStatus.denied) {
+      _permissionGranted = await location.requestPermission();
+      if (_permissionGranted != PermissionStatus.granted) {
+        return;
+      }
+    }
+    var _locationData = await location.getLocation();
+    double lat = double.parse(widget.roomDetails.lat!);
+    double lng = double.parse(widget.roomDetails.lng!);
+    distance = Geolocator.distanceBetween(
+        lat, lng, _locationData.latitude!, _locationData.longitude!);
+    setState(() {});
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -56,7 +102,7 @@ class MapView extends StatelessWidget {
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   Text(
-                                    "16.25",
+                                    "${distance.toStringAsFixed(2)}",
                                     style: AppStyles.textSizeCustom(
                                       size: 12,
                                       fontWeight: FontWeight.w700,
@@ -88,31 +134,40 @@ class MapView extends StatelessWidget {
               const SizedBox(
                 width: 10,
               ),
-              Container(
-                height: 120,
-                padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
-                decoration: BoxDecoration(
-                  color: AppColors.CarnationPink,
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Column(
-                  children: [
-                    Icon(
-                      Icons.directions,
-                      color: Colors.white,
-                      size: 28,
-                    ),
-                    const SizedBox(
-                      height: 4,
-                    ),
-                    Text(
-                      "Map\nDirections",
-                      textAlign: TextAlign.center,
-                      style: AppStyles.textSize12(
+              GestureDetector(
+                onTap: () {
+                  AppRoutes.push(
+                      context,
+                      GoogleMapView(
+                        roomDetails: widget.roomDetails,
+                      ));
+                },
+                child: Container(
+                  height: 120,
+                  padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
+                  decoration: BoxDecoration(
+                    color: AppColors.CarnationPink,
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Column(
+                    children: [
+                      Icon(
+                        Icons.directions,
                         color: Colors.white,
-                      ).copyWith(),
-                    ),
-                  ],
+                        size: 28,
+                      ),
+                      const SizedBox(
+                        height: 4,
+                      ),
+                      Text(
+                        "Map\nDirections",
+                        textAlign: TextAlign.center,
+                        style: AppStyles.textSize12(
+                          color: Colors.white,
+                        ).copyWith(),
+                      ),
+                    ],
+                  ),
                 ),
               )
             ],

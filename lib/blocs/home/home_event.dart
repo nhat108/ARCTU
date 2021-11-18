@@ -7,3 +7,9 @@ class GetRoomDetails extends HomeEvent {
 
   GetRoomDetails({required this.streetView});
 }
+
+class SavePlace extends HomeEvent {
+  final String placeId;
+
+  SavePlace({required this.placeId});
+}

@@ -3,6 +3,8 @@ part of 'auth_bloc.dart';
 @immutable
 abstract class AuthEvent {}
 
+class GetStarted extends AuthEvent {}
+
 class CheckEmailExisted extends AuthEvent {
   final String email;
   final Function(bool) onSuccess;
@@ -39,3 +41,5 @@ class SignUp extends AuthEvent {
     this.image,
   });
 }
+
+class Logout extends AuthEvent {}

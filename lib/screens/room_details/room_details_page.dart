@@ -54,7 +54,9 @@ class _RoomDetailsPageState extends State<RoomDetailsPage> {
                       RoomDetail(
                         room: state.roomDetails!,
                       ),
-                      MapView(),
+                      MapView(
+                        roomDetails: state.roomDetails!,
+                      ),
                       ViewArBar(
                         image360s: state.roomDetails!.image360s!,
                       ),

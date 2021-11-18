@@ -7,4 +7,7 @@ class AppAssets {
 
   ///Images
   static const backgroundApp = 'assets/images/background_app.png';
+
+  ///Google Maps Styles
+  static const aubergine = 'assets/google_map_styles/aubergine.json';
 }

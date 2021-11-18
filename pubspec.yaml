@@ -35,6 +35,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_unity_widget: ^4.2.3
   firebase_storage: ^10.1.0
+  image_picker: ^0.8.4+4
+  google_maps_flutter: ^2.1.0
+  location: ^4.2.0
+  fluttertoast: ^8.0.8
+  geolocator: 7.7.0
+  image: ^3.0.8
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +51,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/google_map_styles/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

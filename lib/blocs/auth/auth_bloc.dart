@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
+import 'package:ar_ctu/blocs/profile/profile_bloc.dart';
 import 'package:ar_ctu/repositories/auth_repository.dart';
 import 'package:ar_ctu/repositories/firestore_repository.dart';
 import 'package:ar_ctu/utils/parseError.dart';
@@ -13,8 +14,9 @@ part 'auth_event.dart';
 part 'auth_state.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
-  AuthBloc() : super(AuthState.empty());
+  AuthBloc({required this.profileBloc}) : super(AuthState.empty());
   final AuthRepository authRepository = AuthRepository();
+  final ProfileBloc profileBloc;
   final FirestoreRepository firestoreRepository = FirestoreRepository();
   @override
   Stream<AuthState> mapEventToState(
@@ -26,6 +28,26 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
       yield* _login(event);
     } else if (event is SignUp) {
       yield* _signUp(event);
+    } else if (event is GetStarted) {
+      yield* _getStarted();
+    } else if (event is Logout) {
+      yield* _logout();
+    }
+  }
+
+  Stream<AuthState> _logout() async* {
+    await authRepository.logout();
+  }
+
+  Stream<AuthState> _getStarted() async* {
+    try {
+      User? user = authRepository.auth.currentUser;
+      if (user != null) {
+        profileBloc.add(GetProfile(userId: user.email!));
+      }
+    } catch (e) {
+      ParseError error = ParseError.fromJson(e);
+      print('error: ${error.message}');
     }
   }
 

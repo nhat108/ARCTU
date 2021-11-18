@@ -5,6 +5,7 @@ import 'package:ar_ctu/repositories/firestore_repository.dart';
 import 'package:ar_ctu/utils/parseError.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 part 'home_event.dart';
 part 'home_state.dart';
@@ -18,11 +19,20 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     HomeEvent event,
   ) async* {
     if (event is GetRoomDetails) {
-      yield* getRoomDetails(event);
+      yield* _getRoomDetails(event);
+    } else if (event is SavePlace) {
+      yield* _savePlace(event);
     }
   }
 
-  Stream<HomeState> getRoomDetails(GetRoomDetails event) async* {
+  Stream<HomeState> _savePlace(SavePlace event) async* {
+    try {} catch (e) {
+      ParseError error = ParseError.fromJson(e);
+      Fluttertoast.showToast(msg: '${error.message}');
+    }
+  }
+
+  Stream<HomeState> _getRoomDetails(GetRoomDetails event) async* {
     try {
       yield state.copyWith(
         getRoomDetailsLoading: true,

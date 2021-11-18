@@ -1,4 +1,5 @@
 import 'package:ar_ctu/blocs/auth/auth_bloc.dart';
+import 'package:ar_ctu/blocs/profile/profile_bloc.dart';
 import 'package:ar_ctu/screens/auth/get_started_page.dart';
 import 'package:ar_ctu/screens/profile/update_profile.dart';
 import 'package:ar_ctu/utils/app_assets.dart';
@@ -53,24 +54,29 @@ class HomeAppBar extends StatelessWidget {
                   stream: BlocProvider.of<AuthBloc>(context).authStateChanges(),
                   builder: (context, snapshot) {
                     if (snapshot.data != null) {
-                      return GestureDetector(
-                        onTap: () {
-                          AppRoutes.push(context, UpdateProfilePage());
-                        },
-                        child: CacheImageNetworkWidget(
-                            width: 40,
-                            height: 40,
-                            borderRadius: 10,
-                            imageUrl:
-                                'https://www.eventworld.co/blob/images/pg/the-weeknd_d186b_opgh.jpg'),
-                      );
+                      return GestureDetector(onTap: () {
+                        AppRoutes.push(context, UpdateProfilePage());
+                      }, child: BlocBuilder<ProfileBloc, ProfileState>(
+                          builder: (context, state) {
+                        if (state.profile != null) {
+                          return CacheImageNetworkWidget(
+                              width: 40,
+                              height: 40,
+                              borderRadius: 10,
+                              imageUrl: '${state.profile!.avatar}');
+                        }
+                        return Container();
+                      }));
                     }
                     return GestureDetector(
                       onTap: () {
                         AppRoutes.push(context, SignUpPage());
                       },
                       child: Container(
-                        child: Text("Login"),
+                        child: Text(
+                          "Login",
+                          style: AppStyles.textSize16(),
+                        ),
                       ),
                     );
                   })
@@ -117,7 +123,7 @@ class HomeAppBar extends StatelessWidget {
                         width: 10,
                       ),
                       Text(
-                        "Tìm kiếm",
+                        "Search",
                         style: AppStyles.textSize14(
                           color: AppColors.CarnationPink,
                           fontWeight: FontWeight.w500,

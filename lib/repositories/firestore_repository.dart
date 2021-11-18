@@ -41,4 +41,7 @@ class FirestoreRepository {
       {required String id, required Map<String, dynamic> data}) async {
     return firestore.collection('users').doc(id).update(data);
   }
+
+  Future<void> savePlace(
+      {required String userId, required String placeId}) async {}
 }
