@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nolove.ar_ctu">
+    <uses-permission android:name="android.permission.INTERNET"/>
+        <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
    <application
+         
         android:label="ar_ctu"
         android:extractNativeLibs="true"
         android:icon="@mipmap/ic_launcher">
@@ -38,5 +42,7 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+              <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyD2vwKuUSfkh0lie-FZ74n9iBZuJj4HKJw"/>
     </application>
 </manifest>

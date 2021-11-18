@@ -1,11 +1,13 @@
 import 'package:ar_ctu/blocs/home/home_bloc.dart';
 import 'package:ar_ctu/models/streetview.dart';
+import 'package:ar_ctu/screens/auth/get_started_page.dart';
 import 'package:ar_ctu/screens/list_recommended/list_recommended_page.dart';
 import 'package:ar_ctu/screens/room_details/room_details_page.dart';
 import 'package:ar_ctu/utils/app_colors.dart';
 import 'package:ar_ctu/utils/app_routes.dart';
 import 'package:ar_ctu/utils/app_styles.dart';
 import 'package:ar_ctu/widgets/cache_image_widget.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -123,7 +125,7 @@ class Recommended extends StatelessWidget {
                                                 style: AppStyles.textSize16(),
                                               ),
                                               Text(
-                                                "Rộng: 500m2",
+                                                "Square: 500m2",
                                                 style: AppStyles.textSize12(
                                                   color:
                                                       AppColors.CarnationPink,
@@ -132,17 +134,61 @@ class Recommended extends StatelessWidget {
                                             ],
                                           ),
                                         ),
-                                        Container(
-                                          decoration: BoxDecoration(
-                                            color: AppColors.CarnationPink,
-                                            shape: BoxShape.circle,
-                                          ),
-                                          width: 35,
-                                          height: 35,
-                                          child: Icon(
-                                            Icons.favorite,
-                                            color: Colors.white,
-                                            size: 14,
+                                        GestureDetector(
+                                          onTap: () {
+                                            if (BlocProvider.of<HomeBloc>(
+                                                    context)
+                                                .isLogined) {
+                                              BlocProvider.of<HomeBloc>(context)
+                                                  .add(SavePlace(
+                                                      placeId:
+                                                          streetViews[index]
+                                                              .id!));
+                                            } else {
+                                              AppRoutes.push(
+                                                  context, SignUpPage());
+                                            }
+                                          },
+                                          child: StreamBuilder<
+                                              DocumentSnapshot<
+                                                  Map<String, dynamic>>>(
+                                            stream: BlocProvider.of<HomeBloc>(
+                                                    context)
+                                                .isFavourite(
+                                                    placeId:
+                                                        streetViews[index].id!),
+                                            builder: (context, snapshot) {
+                                              if (snapshot.hasData &&
+                                                  snapshot.data!.exists) {
+                                                return Container(
+                                                  decoration: BoxDecoration(
+                                                    color:
+                                                        AppColors.CarnationPink,
+                                                    shape: BoxShape.circle,
+                                                  ),
+                                                  width: 35,
+                                                  height: 35,
+                                                  child: Icon(
+                                                    Icons.favorite,
+                                                    color: Colors.white,
+                                                    size: 14,
+                                                  ),
+                                                );
+                                              }
+                                              return Container(
+                                                decoration: BoxDecoration(
+                                                  color: Colors.black,
+                                                  shape: BoxShape.circle,
+                                                ),
+                                                width: 35,
+                                                height: 35,
+                                                child: Icon(
+                                                  Icons.favorite,
+                                                  color: Colors.white,
+                                                  size: 14,
+                                                ),
+                                              );
+                                            },
                                           ),
                                         ),
                                       ],

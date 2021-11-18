@@ -1,7 +1,14 @@
+import 'package:ar_ctu/blocs/auth/auth_bloc.dart';
+import 'package:ar_ctu/blocs/profile/profile_bloc.dart';
+import 'package:ar_ctu/screens/auth/get_started_page.dart';
+import 'package:ar_ctu/screens/profile/update_profile.dart';
 import 'package:ar_ctu/utils/app_assets.dart';
+import 'package:ar_ctu/utils/app_routes.dart';
 import 'package:ar_ctu/utils/app_styles.dart';
 import 'package:ar_ctu/widgets/cache_image_widget.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class RoomAppBar extends StatelessWidget {
@@ -45,12 +52,36 @@ class RoomAppBar extends StatelessWidget {
             "Room",
             style: AppStyles.textSize18(),
           ),
-          CacheImageNetworkWidget(
-              width: 40,
-              height: 40,
-              borderRadius: 10,
-              imageUrl:
-                  'https://www.eventworld.co/blob/images/pg/the-weeknd_d186b_opgh.jpg')
+          StreamBuilder<User?>(
+              stream: BlocProvider.of<AuthBloc>(context).authStateChanges(),
+              builder: (context, snapshot) {
+                if (snapshot.data != null) {
+                  return GestureDetector(onTap: () {
+                    AppRoutes.push(context, UpdateProfilePage());
+                  }, child: BlocBuilder<ProfileBloc, ProfileState>(
+                      builder: (context, state) {
+                    if (state.profile != null) {
+                      return CacheImageNetworkWidget(
+                          width: 40,
+                          height: 40,
+                          borderRadius: 10,
+                          imageUrl: '${state.profile!.avatar}');
+                    }
+                    return Container();
+                  }));
+                }
+                return GestureDetector(
+                  onTap: () {
+                    AppRoutes.push(context, SignUpPage());
+                  },
+                  child: Container(
+                    child: Text(
+                      "Login",
+                      style: AppStyles.textSize16(),
+                    ),
+                  ),
+                );
+              }),
         ],
       ),
     );

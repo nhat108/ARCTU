@@ -43,5 +43,27 @@ class FirestoreRepository {
   }
 
   Future<void> savePlace(
-      {required String userId, required String placeId}) async {}
+      {required String userId, required String placeId}) async {
+    var doc = firestore
+        .collection('users')
+        .doc(userId)
+        .collection('favourite')
+        .doc(placeId);
+    var data = await doc.get();
+    if (data.exists) {
+      await doc.delete();
+    } else {
+      await doc.set({'datetime': DateTime.now().toIso8601String()});
+    }
+  }
+
+  Stream<DocumentSnapshot<Map<String, dynamic>>> isFavourite(
+      {required String userId, required String placeId}) {
+    return firestore
+        .collection('users')
+        .doc(userId)
+        .collection('favourite')
+        .doc(placeId)
+        .snapshots();
+  }
 }
