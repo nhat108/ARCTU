@@ -2,9 +2,12 @@ import 'dart:ui';
 
 import 'package:ar_ctu/screens/home/home_page.dart';
 import 'package:ar_ctu/screens/info_page/info_page.dart';
+import 'package:ar_ctu/screens/my_favourite/my_favourite_page.dart';
 import 'package:ar_ctu/utils/app_colors.dart';
 import 'package:ar_ctu/utils/app_styles.dart';
 import 'package:flutter/material.dart';
+
+enum MenuTab { Home, MyFavourite, Info }
 
 class NavigatorBuilder extends StatefulWidget {
   const NavigatorBuilder({Key? key}) : super(key: key);
@@ -15,7 +18,22 @@ class NavigatorBuilder extends StatefulWidget {
 
 class _NavigatorBuilderState extends State<NavigatorBuilder> {
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
-  int _currentTab = 0;
+
+  MenuTab _menuTab = MenuTab.Home;
+  Widget _body() {
+    switch (_menuTab) {
+      case MenuTab.Home:
+        return HomePage(
+          scaffoldKey: _scaffoldKey,
+        );
+      case MenuTab.MyFavourite:
+        return MyFavouritePage(
+          scaffoldKey: _scaffoldKey,
+        );
+      case MenuTab.Info:
+        return InfoPage();
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -38,12 +56,12 @@ class _NavigatorBuilderState extends State<NavigatorBuilder> {
                 GestureDetector(
                   onTap: () {
                     setState(() {
-                      _currentTab = 0;
+                      _menuTab = MenuTab.Home;
                     });
                     Navigator.pop(context);
                   },
                   child: Container(
-                    color: _currentTab == 0
+                    color: _menuTab == MenuTab.Home
                         ? AppColors.CarnationPink
                         : Colors.transparent,
                     padding: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
@@ -77,12 +95,51 @@ class _NavigatorBuilderState extends State<NavigatorBuilder> {
                 GestureDetector(
                   onTap: () {
                     setState(() {
-                      _currentTab = 1;
+                      _menuTab = MenuTab.MyFavourite;
                     });
                     Navigator.pop(context);
                   },
                   child: Container(
-                    color: _currentTab == 1
+                    color: _menuTab == MenuTab.MyFavourite
+                        ? AppColors.CarnationPink
+                        : Colors.transparent,
+                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+                    child: Row(
+                      children: [
+                        Container(
+                            padding: EdgeInsets.all(6),
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              color: AppColors.CarnationPink,
+                            ),
+                            child: Icon(
+                              Icons.favorite,
+                              color: Colors.white,
+                              size: 25,
+                            )),
+                        const SizedBox(
+                          width: 6,
+                        ),
+                        Text(
+                          "My Favourite",
+                          style: AppStyles.textSize18(),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Divider(
+                  height: 1,
+                ),
+                GestureDetector(
+                  onTap: () {
+                    setState(() {
+                      _menuTab = MenuTab.Info;
+                    });
+                    Navigator.pop(context);
+                  },
+                  child: Container(
+                    color: _menuTab == MenuTab.Info
                         ? AppColors.CarnationPink
                         : Colors.transparent,
                     padding: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
@@ -118,11 +175,7 @@ class _NavigatorBuilderState extends State<NavigatorBuilder> {
           ),
         ),
       ),
-      body: _currentTab == 0
-          ? HomePage(
-              scaffoldKey: _scaffoldKey,
-            )
-          : InfoPage(),
+      body: _body(),
     );
   }
 }

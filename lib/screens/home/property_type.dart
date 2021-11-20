@@ -3,6 +3,8 @@ import 'package:ar_ctu/utils/app_styles.dart';
 import 'package:ar_ctu/widgets/cache_image_widget.dart';
 import 'package:flutter/material.dart';
 
+enum PropertyType { Outdoor, Building, Room }
+
 class PrepertyType extends StatelessWidget {
   const PrepertyType({Key? key}) : super(key: key);
 
@@ -64,13 +66,13 @@ class PrepertyType extends StatelessWidget {
                       height: 65,
                       borderRadius: 10,
                       imageUrl:
-                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOPV6kjkLYClng-nngmibN7CmAyTXa96CFFF76GydBYtYRz8oIB-OPtv0_3-xPwEgJbg&usqp=CAU',
+                          'https://bostonglobe-prod.cdn.arcpublishing.com/resizer/tXBIV8tE81ASEmOFIWgiwa06Qeo=/1440x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/X7BUNQH435DHNAB75WYYO2M5A4.jpg',
                     ),
                     const SizedBox(
                       height: 8,
                     ),
                     Text(
-                      "Ngoài Trời",
+                      "Outdoor",
                       style: AppStyles.textSize14(
                         fontWeight: FontWeight.w700,
                         color: AppColors.CarnationPink,
@@ -88,13 +90,13 @@ class PrepertyType extends StatelessWidget {
                       height: 65,
                       borderRadius: 10,
                       imageUrl:
-                          'https://education81946.files.wordpress.com/2016/03/khu2-khoa.jpg',
+                          'https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg',
                     ),
                     const SizedBox(
                       height: 8,
                     ),
                     Text(
-                      "Khoa",
+                      "Building",
                       style: AppStyles.textSize14(
                         fontWeight: FontWeight.w700,
                         color: AppColors.CarnationPink,
@@ -114,7 +116,7 @@ class PrepertyType extends StatelessWidget {
                           height: 65,
                           borderRadius: 10,
                           imageUrl:
-                              'https://27mi124bz6zg1hqy6n192jkb-wpengine.netdna-ssl.com/wp-content/uploads/2020/05/Classroom-Management-for-an-Effective-Learning-Environment-scaled.jpg',
+                              'https://pix10.agoda.net/hotelImages/agoda-homes/7328614/22de024917ae6aa4494747bf5c25f909.jpg?s=1024x768',
                         ),
                         Positioned.fill(
                           child: Align(
@@ -138,7 +140,7 @@ class PrepertyType extends StatelessWidget {
                       height: 8,
                     ),
                     Text(
-                      "Phòng",
+                      "Room",
                       style: AppStyles.textSize14(
                         fontWeight: FontWeight.w700,
                       ),

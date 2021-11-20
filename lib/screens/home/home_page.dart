@@ -16,18 +16,23 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: SingleChildScrollView(
-        child: Column(
-          children: [
-            HomeAppBar(
-              onMenuTap: () {
-                widget.scaffoldKey.currentState!.openDrawer();
-              },
-            ),
-            PrepertyType(),
-            Recommended(),
-          ],
+    return GestureDetector(
+      onTap: () {
+        FocusScope.of(context).requestFocus(new FocusNode());
+      },
+      child: SafeArea(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              HomeAppBar(
+                onMenuTap: () {
+                  widget.scaffoldKey.currentState!.openDrawer();
+                },
+              ),
+              PrepertyType(),
+              Recommended(),
+            ],
+          ),
         ),
       ),
     );

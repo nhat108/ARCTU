@@ -1,6 +1,7 @@
 import 'package:ar_ctu/blocs/auth/auth_bloc.dart';
 import 'package:ar_ctu/blocs/home/home_bloc.dart';
 import 'package:ar_ctu/blocs/profile/profile_bloc.dart';
+import 'package:ar_ctu/blocs/room_details/room_details_bloc.dart';
 import 'package:ar_ctu/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -35,6 +36,7 @@ class BlocManager extends StatelessWidget {
               AuthBloc(profileBloc: BlocProvider.of<ProfileBloc>(context))
                 ..add(GetStarted())),
       BlocProvider(create: (_) => HomeBloc()),
+      BlocProvider(create: (_) => RoomDetailsBloc()),
     ], child: MyApp());
   }
 }

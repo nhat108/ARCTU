@@ -1,4 +1,5 @@
 import 'package:ar_ctu/blocs/home/home_bloc.dart';
+import 'package:ar_ctu/blocs/room_details/room_details_bloc.dart';
 import 'package:ar_ctu/models/streetview.dart';
 import 'package:ar_ctu/screens/room_details/room_appbar.dart';
 import 'package:ar_ctu/screens/room_details/slide_photo.dart';
@@ -23,7 +24,7 @@ class RoomDetailsPage extends StatefulWidget {
 class _RoomDetailsPageState extends State<RoomDetailsPage> {
   @override
   void initState() {
-    BlocProvider.of<HomeBloc>(context)
+    BlocProvider.of<RoomDetailsBloc>(context)
         .add(GetRoomDetails(streetView: widget.streetView));
     super.initState();
   }
@@ -37,7 +38,8 @@ class _RoomDetailsPageState extends State<RoomDetailsPage> {
           child: Column(
             children: [
               RoomAppBar(),
-              BlocBuilder<HomeBloc, HomeState>(builder: (context, state) {
+              BlocBuilder<RoomDetailsBloc, RoomDetailsState>(
+                  builder: (context, state) {
                 if (state.getRoomDetailsLoading!) {
                   return LoadingWidget();
                 }

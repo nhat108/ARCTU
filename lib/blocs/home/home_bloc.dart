@@ -20,9 +20,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   Stream<HomeState> mapEventToState(
     HomeEvent event,
   ) async* {
-    if (event is GetRoomDetails) {
-      yield* _getRoomDetails(event);
-    } else if (event is SavePlace) {
+    if (event is SavePlace) {
       yield* _savePlace(event);
     }
   }
@@ -40,39 +38,18 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     }
   }
 
-  Stream<HomeState> _getRoomDetails(GetRoomDetails event) async* {
-    try {
-      yield state.copyWith(
-        getRoomDetailsLoading: true,
-        getRoomDetailsError: '',
-      );
-      final image360s =
-          await firestoreRepository.getImage360(id: event.streetView.id!);
-      yield state.copyWith(
-          getRoomDetailsLoading: false,
-          roomDetails: RoomDetails(
-            image360s: image360s,
-            description: event.streetView.description,
-            id: event.streetView.id,
-            lat: event.streetView.lat,
-            lng: event.streetView.lng,
-            name: event.streetView.name,
-            thumbnail: event.streetView.thumbnail,
-          ));
-    } catch (e) {
-      ParseError error = ParseError.fromJson(e);
-      yield state.copyWith(
-          getRoomDetailsError: error.message, getRoomDetailsLoading: false);
-    }
-  }
-
-  Stream<List<StreetView>> getListStreetViews() {
-    return firestoreRepository.getStreetViews();
+  Stream<List<StreetView?>> getListStreetViews({List<String>? ids}) {
+    return firestoreRepository.getStreetViews(ids: ids);
   }
 
   Stream<DocumentSnapshot<Map<String, dynamic>>> isFavourite(
       {required String placeId}) {
     return firestoreRepository.isFavourite(
         userId: authRepository.auth.currentUser!.email!, placeId: placeId);
+  }
+
+  Stream<List<String>> myFavourites() {
+    return firestoreRepository.myFavourites(
+        userId: authRepository.auth.currentUser!.email!);
   }
 }

@@ -68,7 +68,7 @@ class _ListRecommendedPageState extends State<ListRecommendedPage> {
               ),
             ),
             Expanded(
-              child: StreamBuilder<List<StreetView>>(
+              child: StreamBuilder<List<StreetView?>>(
                   stream:
                       BlocProvider.of<HomeBloc>(context).getListStreetViews(),
                   builder: (context, snapshot) {
@@ -82,7 +82,7 @@ class _ListRecommendedPageState extends State<ListRecommendedPage> {
                                 AppRoutes.push(
                                     context,
                                     RoomDetailsPage(
-                                      streetView: streetViews![index],
+                                      streetView: streetViews![index]!,
                                     ));
                               },
                               child: Container(
@@ -100,7 +100,7 @@ class _ListRecommendedPageState extends State<ListRecommendedPage> {
                                           borderRadius: 10,
                                           width: double.infinity,
                                           imageUrl:
-                                              '${streetViews![index].thumbnail}',
+                                              '${streetViews![index]?.thumbnail}',
                                         ),
                                         Positioned.fill(
                                           top: 10,
@@ -140,7 +140,7 @@ class _ListRecommendedPageState extends State<ListRecommendedPage> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  "${streetViews[index].name}",
+                                                  "${streetViews[index]?.name}",
                                                   style: AppStyles.textSize16(),
                                                 ),
                                                 Text(

@@ -1,3 +1,4 @@
+import 'package:ar_ctu/blocs/auth/auth_bloc.dart';
 import 'package:ar_ctu/blocs/home/home_bloc.dart';
 import 'package:ar_ctu/models/streetview.dart';
 import 'package:ar_ctu/screens/auth/get_started_page.dart';
@@ -8,6 +9,7 @@ import 'package:ar_ctu/utils/app_routes.dart';
 import 'package:ar_ctu/utils/app_styles.dart';
 import 'package:ar_ctu/widgets/cache_image_widget.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -46,7 +48,7 @@ class Recommended extends StatelessWidget {
           const SizedBox(
             height: 12,
           ),
-          StreamBuilder<List<StreetView>>(
+          StreamBuilder<List<StreetView?>>(
               stream: BlocProvider.of<HomeBloc>(context).getListStreetViews(),
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
@@ -60,7 +62,7 @@ class Recommended extends StatelessWidget {
                             AppRoutes.push(
                                 context,
                                 RoomDetailsPage(
-                                  streetView: streetViews[index],
+                                  streetView: streetViews[index]!,
                                 ));
                           },
                           child: Padding(
@@ -81,7 +83,7 @@ class Recommended extends StatelessWidget {
                                         height: 120,
                                         borderRadius: 10,
                                         imageUrl:
-                                            '${streetViews[index].thumbnail}',
+                                            '${streetViews[index]?.thumbnail}',
                                       ),
                                       Positioned.fill(
                                         top: 10,
@@ -121,7 +123,7 @@ class Recommended extends StatelessWidget {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                "${streetViews[index].name}",
+                                                "${streetViews[index]?.name}",
                                                 style: AppStyles.textSize16(),
                                               ),
                                               Text(
@@ -142,28 +144,73 @@ class Recommended extends StatelessWidget {
                                               BlocProvider.of<HomeBloc>(context)
                                                   .add(SavePlace(
                                                       placeId:
-                                                          streetViews[index]
+                                                          streetViews[index]!
                                                               .id!));
                                             } else {
                                               AppRoutes.push(
                                                   context, SignUpPage());
                                             }
                                           },
-                                          child: StreamBuilder<
-                                              DocumentSnapshot<
-                                                  Map<String, dynamic>>>(
-                                            stream: BlocProvider.of<HomeBloc>(
-                                                    context)
-                                                .isFavourite(
-                                                    placeId:
-                                                        streetViews[index].id!),
-                                            builder: (context, snapshot) {
-                                              if (snapshot.hasData &&
-                                                  snapshot.data!.exists) {
+                                          child: StreamBuilder<User?>(
+                                              stream: BlocProvider.of<AuthBloc>(
+                                                      context)
+                                                  .authStateChanges(),
+                                              builder: (context, snapshot) {
+                                                if (snapshot.hasData) {
+                                                  return StreamBuilder<
+                                                      DocumentSnapshot<
+                                                          Map<String,
+                                                              dynamic>>>(
+                                                    stream: BlocProvider.of<
+                                                            HomeBloc>(context)
+                                                        .isFavourite(
+                                                            placeId:
+                                                                streetViews[
+                                                                        index]!
+                                                                    .id!),
+                                                    builder:
+                                                        (context, snapshot) {
+                                                      if (snapshot.hasData &&
+                                                          snapshot
+                                                              .data!.exists) {
+                                                        return Container(
+                                                          decoration:
+                                                              BoxDecoration(
+                                                            color: AppColors
+                                                                .CarnationPink,
+                                                            shape:
+                                                                BoxShape.circle,
+                                                          ),
+                                                          width: 35,
+                                                          height: 35,
+                                                          child: Icon(
+                                                            Icons.favorite,
+                                                            color: Colors.white,
+                                                            size: 14,
+                                                          ),
+                                                        );
+                                                      }
+                                                      return Container(
+                                                        decoration:
+                                                            BoxDecoration(
+                                                          color: Colors.black,
+                                                          shape:
+                                                              BoxShape.circle,
+                                                        ),
+                                                        width: 35,
+                                                        height: 35,
+                                                        child: Icon(
+                                                          Icons.favorite,
+                                                          color: Colors.white,
+                                                          size: 14,
+                                                        ),
+                                                      );
+                                                    },
+                                                  );
+                                                }
                                                 return Container(
                                                   decoration: BoxDecoration(
-                                                    color:
-                                                        AppColors.CarnationPink,
+                                                    color: Colors.black,
                                                     shape: BoxShape.circle,
                                                   ),
                                                   width: 35,
@@ -174,22 +221,7 @@ class Recommended extends StatelessWidget {
                                                     size: 14,
                                                   ),
                                                 );
-                                              }
-                                              return Container(
-                                                decoration: BoxDecoration(
-                                                  color: Colors.black,
-                                                  shape: BoxShape.circle,
-                                                ),
-                                                width: 35,
-                                                height: 35,
-                                                child: Icon(
-                                                  Icons.favorite,
-                                                  color: Colors.white,
-                                                  size: 14,
-                                                ),
-                                              );
-                                            },
-                                          ),
+                                              }),
                                         ),
                                       ],
                                     ),

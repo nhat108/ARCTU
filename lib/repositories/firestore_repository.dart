@@ -9,7 +9,21 @@ import 'package:firebase_storage/firebase_storage.dart';
 class FirestoreRepository {
   final FirebaseFirestore firestore = FirebaseFirestore.instance;
   final storage = firebase_storage.FirebaseStorage.instance;
-  Stream<List<StreetView>> getStreetViews() {
+  Stream<List<StreetView?>> getStreetViews({List<String>? ids}) {
+    if (ids != null) {
+      return firestore.collection('streetview').snapshots().map((event) {
+        return event.docs
+            .map((e) {
+              if (ids.contains(e.data()['id'])) {
+                return StreetView.fromJson(e.data());
+              }
+              return null;
+            })
+            .where((element) => element != null)
+            .toList();
+      });
+    }
+
     return firestore.collection('streetview').snapshots().map((event) =>
         event.docs.map((e) => StreetView.fromJson(e.data())).toList());
   }
@@ -65,5 +79,32 @@ class FirestoreRepository {
         .collection('favourite')
         .doc(placeId)
         .snapshots();
+  }
+
+  Stream<List<String>> myFavourites({required String userId}) {
+    return firestore
+        .collection('users')
+        .doc(userId)
+        .collection('favourite')
+        .snapshots()
+        .asyncMap((event) {
+      return event.docs.map((e) => e.id).toList();
+    });
+  }
+
+  Future<List<StreetView?>> searchPlace({required String query}) async {
+    var data = await firestore.collection('streetview').get();
+    return data.docs
+        .map((e) {
+          if (e
+              .data()['name']
+              .toString()
+              .toLowerCase()
+              .contains(query.toLowerCase())) {
+            return StreetView.fromJson(e.data());
+          }
+        })
+        .where((element) => element != null)
+        .toList();
   }
 }
